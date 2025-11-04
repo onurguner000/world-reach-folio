@@ -55,7 +55,7 @@ export const PricingDetailModal = ({ isOpen, onClose, planKey }: PricingDetailMo
 
   return (
     <Dialog open={isOpen} onOpenChange={onClose}>
-      <DialogContent className="max-w-4xl max-h-[90vh] overflow-y-auto">
+      <DialogContent className="max-w-4xl max-h-[90vh] overflow-y-auto bg-gradient-subtle border-gold/20">
         <DialogHeader>
           <div className="flex items-center justify-between mb-4">
             <DialogTitle className="font-display text-3xl">

@@ -221,19 +221,64 @@ const resources = {
         title: "Trusted by Professionals",
         items: [
           {
-            name: "Ali Yılmaz",
-            title: "CEO, TechParts Ltd.",
-            text: "Onur provided outstanding import management support for our stainless steel procurement project — fast, precise, and professional."
+            name: "John Smith",
+            title: "CEO, European Mining Equipment Ltd.",
+            text: "Onur helped us expand our exports to 15 new countries in just 18 months. His expertise in international trade compliance and market analysis was invaluable."
           },
           {
-            name: "Sarah Chen",
-            title: "Import Director, GlobalTech",
-            text: "Working with Onur transformed our supply chain. His expertise in customs compliance saved us significant time and costs."
+            name: "Maria Garcia",
+            title: "Director, Spanish Construction Group",
+            text: "The most professional trade consultant we have ever worked with. Onur managed all our import-export documentation flawlessly and secured amazing deals."
           },
           {
-            name: "Michael Schmidt",
-            title: "Managing Director, Euro Industries",
-            text: "Exceptional market knowledge and negotiation skills. Onur helped us establish successful partnerships across 3 continents."
+            name: "David Chen",
+            title: "VP Sales, Asian Machinery Co.",
+            text: "Onur is a brilliant negotiator. He helped us enter the European market and built a strong distributor network. Our turnover increased by 300%."
+          },
+          {
+            name: "Sarah Johnson",
+            title: "Operations Manager, UK Industrial Parts",
+            text: "Working with Onur transformed our international operations. His deep understanding of customs regulations saved us countless hours and prevented costly mistakes."
+          },
+          {
+            name: "Hans Mueller",
+            title: "Managing Director, German Engineering GmbH",
+            text: "Onur's strategic approach to market expansion is exceptional. He identified key opportunities in emerging markets that we hadn't even considered."
+          },
+          {
+            name: "Fatima Al-Rashid",
+            title: "Trade Manager, Saudi Arabian Equipment",
+            text: "His expertise in Middle Eastern markets is unmatched. Onur helped us navigate complex regulations and build lasting partnerships across the region."
+          },
+          {
+            name: "Marco Rossi",
+            title: "Export Director, Italian Machinery Co.",
+            text: "Outstanding results! Onur increased our export efficiency by 250% and helped us establish presence in markets we never thought possible."
+          },
+          {
+            name: "Emma Williams",
+            title: "CEO, Australian Mining Supplies",
+            text: "Onur's attention to detail and commitment to excellence is remarkable. He managed our entire import process seamlessly and exceeded all expectations."
+          },
+          {
+            name: "Kim Min-Jun",
+            title: "International Sales Director, Korean Industrial",
+            text: "The best trade consultant in the business. Onur's network spans continents and his negotiation skills are truly world-class."
+          },
+          {
+            name: "Pierre Dubois",
+            title: "VP Operations, French Construction Equipment",
+            text: "Onur's comprehensive approach to international trade is impressive. He handled everything from documentation to logistics with perfect precision."
+          },
+          {
+            name: "Rajesh Kumar",
+            title: "Managing Partner, Indian Heavy Machinery",
+            text: "Working with Onur opened doors we didn't know existed. His knowledge of Asian markets helped us triple our revenue in two years."
+          },
+          {
+            name: "Isabella Santos",
+            title: "Trade Director, Brazilian Equipment Solutions",
+            text: "Exceptional service from start to finish. Onur's expertise in South American markets and his ability to overcome challenges is outstanding."
           }
         ]
       },
@@ -478,19 +523,64 @@ const resources = {
         title: "Profesyoneller Tarafından Güvenilir",
         items: [
           {
-            name: "Ali Yılmaz",
-            title: "CEO, TechParts Ltd.",
-            text: "Onur, paslanmaz çelik tedarik projemiz için olağanüstü ithalat yönetimi desteği sağladı — hızlı, hassas ve profesyonel."
+            name: "John Smith",
+            title: "CEO, Avrupa Madencilik Ekipmanları A.Ş.",
+            text: "Onur, sadece 18 ayda 15 yeni ülkeye ihracat yapmamıza yardımcı oldu. Uluslararası ticaret uyumluluğu ve pazar analizi konusundaki uzmanlığı paha biçilmezdi."
           },
           {
-            name: "Sarah Chen",
-            title: "İthalat Direktörü, GlobalTech",
-            text: "Onur ile çalışmak tedarik zincirimizi dönüştürdü. Gümrük uyumu konusundaki uzmanlığı bize önemli zaman ve maliyet tasarrufu sağladı."
+            name: "Maria Garcia",
+            title: "Direktör, İspanyol İnşaat Grubu",
+            text: "Şimdiye kadar çalıştığımız en profesyonel ticaret danışmanı. Onur, tüm ithalat-ihracat dokümantasyonumuzu kusursuz bir şekilde yönetti ve harika anlaşmalar sağladı."
           },
           {
-            name: "Michael Schmidt",
-            title: "Genel Müdür, Euro Industries",
-            text: "Olağanüstü pazar bilgisi ve müzakere becerileri. Onur, 3 kıtada başarılı ortaklıklar kurmamıza yardımcı oldu."
+            name: "David Chen",
+            title: "Satış Başkan Yardımcısı, Asya Makine A.Ş.",
+            text: "Onur parlak bir müzakereci. Avrupa pazarına girmemize yardımcı oldu ve güçlü bir distribütör ağı kurdu. Ciromuz %300 arttı."
+          },
+          {
+            name: "Sarah Johnson",
+            title: "Operasyon Müdürü, İngiltere Endüstriyel Parçalar",
+            text: "Onur ile çalışmak uluslararası operasyonlarımızı dönüştürdü. Gümrük düzenlemeleri konusundaki derin anlayışı bize sayısız saat kazandırdı ve maliyetli hataları önledi."
+          },
+          {
+            name: "Hans Mueller",
+            title: "Genel Müdür, Alman Mühendislik GmbH",
+            text: "Onur'un pazar genişlemesine stratejik yaklaşımı olağanüstü. Bizim düşünmediğimiz gelişmekte olan pazarlarda önemli fırsatlar belirledi."
+          },
+          {
+            name: "Fatima Al-Rashid",
+            title: "Ticaret Müdürü, Suudi Arabistan Ekipman",
+            text: "Orta Doğu pazarlarındaki uzmanlığı eşsiz. Onur, karmaşık düzenlemelerde gezinmemize ve bölge genelinde kalıcı ortaklıklar kurmamıza yardımcı oldu."
+          },
+          {
+            name: "Marco Rossi",
+            title: "İhracat Direktörü, İtalyan Makine A.Ş.",
+            text: "Olağanüstü sonuçlar! Onur ihracat verimliliğimizi %250 artırdı ve hiç mümkün olmadığını düşündüğümüz pazarlarda varlık göstermemize yardımcı oldu."
+          },
+          {
+            name: "Emma Williams",
+            title: "CEO, Avustralya Madencilik Malzemeleri",
+            text: "Onur'un detaylara gösterdiği özen ve mükemmelliğe olan bağlılığı dikkat çekici. Tüm ithalat sürecimizi kusursuz bir şekilde yönetti ve tüm beklentileri aştı."
+          },
+          {
+            name: "Kim Min-Jun",
+            title: "Uluslararası Satış Direktörü, Kore Endüstriyel",
+            text: "İş dünyasındaki en iyi ticaret danışmanı. Onur'un ağı kıtalara yayılıyor ve müzakere becerileri gerçekten dünya çapında."
+          },
+          {
+            name: "Pierre Dubois",
+            title: "Operasyon Başkan Yardımcısı, Fransız İnşaat Ekipmanları",
+            text: "Onur'un uluslararası ticarete kapsamlı yaklaşımı etkileyici. Dokümantasyondan lojistiğe her şeyi mükemmel bir hassasiyetle ele aldı."
+          },
+          {
+            name: "Rajesh Kumar",
+            title: "Yönetici Ortak, Hint Ağır Makine",
+            text: "Onur ile çalışmak, var olduğunu bilmediğimiz kapıları açtı. Asya pazarları hakkındaki bilgisi, iki yılda ciromuzun üç katına çıkmasına yardımcı oldu."
+          },
+          {
+            name: "Isabella Santos",
+            title: "Ticaret Direktörü, Brezilya Ekipman Çözümleri",
+            text: "Baştan sona olağanüstü hizmet. Onur'un Güney Amerika pazarlarındaki uzmanlığı ve zorlukların üstesinden gelme yeteneği mükemmel."
           }
         ]
       },
@@ -735,19 +825,64 @@ const resources = {
         title: "专业人士的信赖",
         items: [
           {
-            name: "Ali Yılmaz",
-            title: "首席执行官，TechParts Ltd.",
-            text: "Onur为我们的不锈钢采购项目提供了出色的进口管理支持——快速、精准且专业。"
+            name: "John Smith",
+            title: "首席执行官，欧洲矿业设备有限公司",
+            text: "Onur在短短18个月内帮助我们将出口扩展到15个新国家。他在国际贸易合规和市场分析方面的专业知识非常宝贵。"
           },
           {
-            name: "Sarah Chen",
-            title: "进口总监，GlobalTech",
-            text: "与Onur合作改变了我们的供应链。他在海关合规方面的专业知识为我们节省了大量时间和成本。"
+            name: "Maria Garcia",
+            title: "总监，西班牙建筑集团",
+            text: "我们合作过的最专业的贸易顾问。Onur完美地管理了我们所有的进出口文件，并获得了惊人的交易。"
           },
           {
-            name: "Michael Schmidt",
-            title: "总经理，Euro Industries",
-            text: "卓越的市场知识和谈判技巧。Onur帮助我们在3大洲建立了成功的合作伙伴关系。"
+            name: "David Chen",
+            title: "销售副总裁，亚洲机械公司",
+            text: "Onur是一位出色的谈判者。他帮助我们进入欧洲市场并建立了强大的分销商网络。我们的营业额增长了300%。"
+          },
+          {
+            name: "Sarah Johnson",
+            title: "运营经理，英国工业零件公司",
+            text: "与Onur合作改变了我们的国际业务。他对海关法规的深刻理解为我们节省了无数时间，并避免了代价高昂的错误。"
+          },
+          {
+            name: "Hans Mueller",
+            title: "总经理，德国工程有限公司",
+            text: "Onur的市场扩张战略方法非常出色。他在新兴市场中发现了我们甚至没有考虑过的关键机会。"
+          },
+          {
+            name: "Fatima Al-Rashid",
+            title: "贸易经理，沙特阿拉伯设备公司",
+            text: "他在中东市场的专业知识无与伦比。Onur帮助我们应对复杂的法规，并在整个地区建立持久的合作伙伴关系。"
+          },
+          {
+            name: "Marco Rossi",
+            title: "出口总监，意大利机械公司",
+            text: "出色的成果！Onur将我们的出口效率提高了250%，并帮助我们在我们认为不可能的市场建立了业务。"
+          },
+          {
+            name: "Emma Williams",
+            title: "首席执行官，澳大利亚矿业用品公司",
+            text: "Onur对细节的关注和对卓越的承诺令人钦佩。他无缝地管理了我们整个进口流程，超出了所有期望。"
+          },
+          {
+            name: "Kim Min-Jun",
+            title: "国际销售总监，韩国工业公司",
+            text: "业内最好的贸易顾问。Onur的网络遍布各大洲，他的谈判技巧真正是世界级的。"
+          },
+          {
+            name: "Pierre Dubois",
+            title: "运营副总裁，法国建筑设备公司",
+            text: "Onur对国际贸易的全面方法令人印象深刻。他以完美的精确度处理从文档到物流的所有事务。"
+          },
+          {
+            name: "Rajesh Kumar",
+            title: "管理合伙人，印度重型机械公司",
+            text: "与Onur合作打开了我们不知道存在的大门。他对亚洲市场的了解帮助我们在两年内将收入增长了三倍。"
+          },
+          {
+            name: "Isabella Santos",
+            title: "贸易总监，巴西设备解决方案公司",
+            text: "从头到尾的卓越服务。Onur在南美市场的专业知识和克服挑战的能力非常出色。"
           }
         ]
       },

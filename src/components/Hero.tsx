@@ -33,44 +33,21 @@ export const Hero = () => {
 
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="max-w-5xl mx-auto text-center">
-          {/* Profile Photo */}
+          {/* Profile Photo - Fixed positioning */}
           <motion.div
-            initial={{ scale: 0, opacity: 0, rotateY: 180 }}
-            animate={{ scale: 1, opacity: 1, rotateY: 0 }}
+            initial={{ scale: 0, opacity: 0 }}
+            animate={{ scale: 1, opacity: 1 }}
             transition={{ 
               duration: 0.8, 
               delay: 0.2,
               type: "spring",
               stiffness: 100
             }}
-            className="mb-8 flex justify-center"
+            className="mb-12 flex justify-center"
           >
-            <motion.div 
-              className="relative w-48 h-48 rounded-full overflow-hidden ring-4 ring-gold shadow-gold"
-              animate={{ 
-                boxShadow: [
-                  "0 0 20px rgba(212, 175, 55, 0.3)",
-                  "0 0 40px rgba(212, 175, 55, 0.6)",
-                  "0 0 20px rgba(212, 175, 55, 0.3)"
-                ]
-              }}
-              transition={{ 
-                duration: 2, 
-                repeat: Infinity,
-                ease: "easeInOut"
-              }}
-            >
-              <div className="w-full h-full bg-gradient-navy flex items-center justify-center">
-                <motion.span 
-                  className="text-7xl font-display text-gold"
-                  initial={{ opacity: 0, scale: 0.5 }}
-                  animate={{ opacity: 1, scale: 1 }}
-                  transition={{ delay: 0.5, duration: 0.5 }}
-                >
-                  OG
-                </motion.span>
-              </div>
-            </motion.div>
+            <div className="relative w-40 h-40 sm:w-48 sm:h-48 rounded-full overflow-hidden ring-4 ring-gold/50 shadow-gold bg-gradient-navy flex items-center justify-center">
+              <span className="text-6xl sm:text-7xl font-display text-gold">OG</span>
+            </div>
           </motion.div>
 
           {/* Title */}
