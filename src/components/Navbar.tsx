@@ -52,8 +52,8 @@ export const Navbar = () => {
         }
       `}
     >
-      <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex items-center justify-between h-20">
+      <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl">
+        <div className="flex items-center justify-between h-16 sm:h-20">
           {/* Logo */}
           <motion.a
             href="#home"
@@ -61,7 +61,7 @@ export const Navbar = () => {
               e.preventDefault();
               scrollToSection('#home');
             }}
-            className="font-display text-3xl font-bold bg-gradient-gold bg-clip-text text-transparent cursor-pointer"
+            className="font-display text-2xl sm:text-3xl font-bold bg-gradient-gold bg-clip-text text-transparent cursor-pointer flex-shrink-0"
             whileHover={{ 
               scale: 1.1,
               rotate: [0, -5, 5, 0],
@@ -73,7 +73,7 @@ export const Navbar = () => {
           </motion.a>
 
           {/* Desktop Navigation */}
-          <div className="hidden md:flex items-center gap-8">
+          <div className="hidden lg:flex items-center gap-4 xl:gap-6">
             {navItems.map((item) => (
               <a
                 key={item.href}
@@ -82,7 +82,7 @@ export const Navbar = () => {
                   e.preventDefault();
                   scrollToSection(item.href);
                 }}
-                className="text-foreground/80 hover:text-foreground font-medium transition-colors duration-300 relative group"
+                className="text-sm xl:text-base text-foreground/80 hover:text-foreground font-medium transition-colors duration-300 relative group whitespace-nowrap"
               >
                 {item.label}
                 <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-gradient-gold transition-all duration-300 group-hover:w-full" />
@@ -92,7 +92,7 @@ export const Navbar = () => {
           </div>
 
           {/* Mobile Menu Button */}
-          <div className="md:hidden flex items-center gap-4">
+          <div className="lg:hidden flex items-center gap-2 sm:gap-4">
             <LanguageSwitcher />
             <Button
               variant="ghost"
@@ -100,7 +100,7 @@ export const Navbar = () => {
               onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
               className="p-2"
             >
-              {isMobileMenuOpen ? <X size={24} /> : <Menu size={24} />}
+              {isMobileMenuOpen ? <X size={20} /> : <Menu size={20} />}
             </Button>
           </div>
         </div>
@@ -113,21 +113,24 @@ export const Navbar = () => {
             initial={{ opacity: 0, height: 0 }}
             animate={{ opacity: 1, height: 'auto' }}
             exit={{ opacity: 0, height: 0 }}
-            className="md:hidden bg-background/95 backdrop-blur-glass border-t border-border"
+            className="lg:hidden bg-background/95 backdrop-blur-glass border-t border-border overflow-hidden"
           >
-            <div className="container mx-auto px-4 py-6 space-y-4">
-              {navItems.map((item) => (
-                <a
+            <div className="container mx-auto px-4 py-6 space-y-4 max-w-7xl">
+              {navItems.map((item, index) => (
+                <motion.a
                   key={item.href}
                   href={item.href}
+                  initial={{ opacity: 0, x: -20 }}
+                  animate={{ opacity: 1, x: 0 }}
+                  transition={{ delay: index * 0.1 }}
                   onClick={(e) => {
                     e.preventDefault();
                     scrollToSection(item.href);
                   }}
-                  className="block py-2 text-foreground/80 hover:text-foreground font-medium transition-colors duration-300"
+                  className="block py-3 text-foreground/80 hover:text-foreground font-medium transition-colors duration-300 border-b border-border/50 last:border-0"
                 >
                   {item.label}
-                </a>
+                </motion.a>
               ))}
             </div>
           </motion.div>

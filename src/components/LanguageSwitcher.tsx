@@ -3,20 +3,20 @@ import { Button } from '@/components/ui/button';
 import { motion } from 'framer-motion';
 
 const languages = [
-  { code: 'tr', flag: '🇹🇷', name: 'Türkçe' },
-  { code: 'en', flag: '🇬🇧', name: 'English' },
-  { code: 'zh', flag: '🇨🇳', name: '中文' },
+  { code: 'tr', flag: '🇹🇷', name: 'Türkçe', label: 'TR' },
+  { code: 'en', flag: '🇬🇧', name: 'English', label: 'GB' },
+  { code: 'zh', flag: '🇨🇳', name: '中文', label: 'CN' },
 ];
 
 export const LanguageSwitcher = () => {
   const { i18n } = useTranslation();
 
   return (
-    <div className="flex gap-2">
+    <div className="flex gap-1 sm:gap-2">
       {languages.map((lang) => (
         <motion.div
           key={lang.code}
-          whileHover={{ scale: 1.1 }}
+          whileHover={{ scale: 1.05 }}
           whileTap={{ scale: 0.95 }}
         >
           <Button
@@ -24,7 +24,7 @@ export const LanguageSwitcher = () => {
             size="sm"
             onClick={() => i18n.changeLanguage(lang.code)}
             className={`
-              font-medium transition-all duration-300
+              px-2 sm:px-3 py-1 text-xs sm:text-sm font-medium transition-all duration-300 min-w-[40px] sm:min-w-[48px]
               ${i18n.language === lang.code 
                 ? 'bg-primary text-primary-foreground shadow-elegant' 
                 : 'bg-card hover:bg-secondary border-border'
@@ -32,7 +32,7 @@ export const LanguageSwitcher = () => {
             `}
             title={lang.name}
           >
-            <span className="text-lg">{lang.flag}</span>
+            {lang.label}
           </Button>
         </motion.div>
       ))}

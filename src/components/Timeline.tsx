@@ -7,19 +7,19 @@ export const Timeline = () => {
 
   const experiences = [
     {
+      key: 'independent',
+      color: 'bg-gold',
+      period: t('timeline.independent.period')
+    },
+    {
       key: 'fms',
       color: 'bg-blue-500',
-      period: '2010 - 2018'
+      period: t('timeline.fms.period')
     },
     {
       key: 'gulhan',
       color: 'bg-purple-500',
-      period: '2018 - 2020'
-    },
-    {
-      key: 'independent',
-      color: 'bg-gold',
-      period: t('timeline.independent.period')
+      period: t('timeline.gulhan.period')
     }
   ];
 

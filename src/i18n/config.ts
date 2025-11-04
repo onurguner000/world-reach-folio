@@ -36,10 +36,10 @@ const resources = {
       },
       profile: {
         title: "Who I Am",
-        intro: "Experienced International Trade & Export Sales Manager with over 14 years of expertise in global trade, market expansion, and B2B & B2C sales.",
+        intro: "Experienced International Trade & Export Sales Manager with over 10 years of expertise in global trade, market expansion, and B2B & B2C sales.",
         points: [
           "Exported to 7 continents, managed 525+ export and 40+ import operations.",
-          "Increased annual turnover from €185K to over €1M through strategic market development.",
+          "Increased annual turnover from €185K to over €1M through strategic market development (2011-2015).",
           "Built distributor networks across Europe, Asia, South Africa, Middle East, and US.",
           "Expert in negotiation, customs compliance, and global pricing strategy."
         ],
@@ -53,32 +53,37 @@ const resources = {
       },
       timeline: {
         title: "My Professional Path",
+        independent: {
+          company: "Independent Consultant",
+          position: "International Trade Consultant",
+          period: "March 2025 – Present",
+          points: [
+            "Managing Turkey authorized sales partnership with global Chinese manufacturer",
+            "Stainless steel import management for defense industry supplier",
+            "Dental equipment import consultancy for medical company",
+            "Industrial paint machine spare parts import consultancy"
+          ]
+        },
         fms: {
           company: "FMS Rock Drilling Equipments",
           position: "Foreign Trade Manager",
+          period: "October 2022 – February 2025",
           points: [
             "Built entire export department from scratch",
-            "Expanded to 7 new countries",
-            "Participated in international fairs (2 domestic, 2 global)",
-            "+1M€ turnover achieved"
+            "Expanded to 7 new countries in the first 6 months",
+            "Attended 2 domestic and 2 international trade fairs",
+            "Created all export documentation and market analysis reports"
           ]
         },
         gulhan: {
           company: "Gülhan Yedek Parça",
           position: "Foreign Trade Manager",
+          period: "October 2013 – April 2020",
           points: [
-            "Managed import/export for industry-leading manufacturer",
-            "Developed 24 new B2B clients",
-            "OEM supplier for major brands"
-          ]
-        },
-        independent: {
-          company: "Independent Consultant",
-          position: "International Trade Consultant",
-          period: "2020 – Present",
-          points: [
-            "Managing authorized partnership for Chinese industrial firms",
-            "Import consultancy for stainless steel, dental and industrial paint equipment"
+            "Managed import/export for industry-leading spare part manufacturer",
+            "Developed 24 new customers across 15 countries (UK, Germany, Spain, Italy, US, etc.)",
+            "Increased annual turnover from €185K to over €1M",
+            "Made company an OEM supplier to major industry players"
           ]
         }
       },
@@ -267,32 +272,37 @@ const resources = {
       },
       timeline: {
         title: "Profesyonel Yolculuğum",
+        independent: {
+          company: "Bağımsız Danışman",
+          position: "Uluslararası Ticaret Danışmanı",
+          period: "Mart 2025 – Günümüz",
+          points: [
+            "Küresel Çinli üretici ile Türkiye yetkili satış ortaklığı yönetimi",
+            "Savunma sanayi tedarikçisi için paslanmaz çelik ithalat yönetimi",
+            "Medikal şirket için dental ekipman ithalat danışmanlığı",
+            "Endüstriyel boya makinesi yedek parçaları ithalat danışmanlığı"
+          ]
+        },
         fms: {
           company: "FMS Rock Drilling Equipments",
           position: "Dış Ticaret Müdürü",
+          period: "Ekim 2022 – Şubat 2025",
           points: [
             "İhracat departmanını sıfırdan kurdum",
-            "7 yeni ülkeye genişleme sağladım",
-            "Uluslararası fuarlara katıldım (2 yerli, 2 küresel)",
-            "+1M€ ciroya ulaştım"
+            "İlk 6 ayda 7 yeni ülkeye genişleme sağladım",
+            "2 yerli ve 2 uluslararası fuara katıldım",
+            "Tüm ihracat dokümantasyonunu ve pazar analiz raporlarını oluşturdum"
           ]
         },
         gulhan: {
           company: "Gülhan Yedek Parça",
           position: "Dış Ticaret Müdürü",
+          period: "Ekim 2013 – Nisan 2020",
           points: [
-            "Sektör lideri üretici için ithalat/ihracat yönettim",
-            "24 yeni B2B müşteri geliştirdim",
-            "Büyük markalar için OEM tedarikçisi"
-          ]
-        },
-        independent: {
-          company: "Bağımsız Danışman",
-          position: "Uluslararası Ticaret Danışmanı",
-          period: "2020 – Günümüz",
-          points: [
-            "Çinli endüstriyel firmalar için yetkili ortaklık yönetimi",
-            "Paslanmaz çelik, dental ve endüstriyel boya ekipmanları ithalat danışmanlığı"
+            "Sektör lideri yedek parça üreticisi için ithalat/ihracat yönetimi",
+            "15 ülkede 24 yeni müşteri geliştirdim (İngiltere, Almanya, İspanya, İtalya, ABD, vb.)",
+            "Yıllık ciroyu 185 bin €'dan 1 milyon €'nun üzerine çıkardım",
+            "Şirketi büyük sektör oyuncuları için OEM tedarikçi yaptım"
           ]
         }
       },
@@ -464,15 +474,57 @@ const resources = {
       },
       profile: {
         title: "关于我",
-        intro: "经验丰富的国际贸易和出口销售经理，在全球贸易、市场拓展和B2B及B2C销售方面拥有超过14年的专业经验。",
+        intro: "经验丰富的国际贸易和出口销售经理，在全球贸易、市场拓展和B2B及B2C销售方面拥有超过10年的专业经验。",
         points: [
           "出口至7大洲，管理525+出口和40+进口业务。",
-          "通过战略性市场开发将年营业额从18.5万欧元增至超过100万欧元。",
+          "通过战略性市场开发将年营业额从18.5万欧元增至超过100万欧元（2011-2015）。",
           "在欧洲、亚洲、南非、中东和美国建立分销商网络。",
           "在谈判、海关合规和全球定价策略方面的专家。"
         ],
         skills: {
           negotiation: "谈判",
+          research: "市场研究",
+          customs: "海关合规",
+          pricing: "定价策略",
+          development: "业务发展"
+        }
+      },
+      timeline: {
+        title: "我的职业道路",
+        independent: {
+          company: "独立顾问",
+          position: "国际贸易顾问",
+          period: "2025年3月 – 至今",
+          points: [
+            "管理与全球中国制造商的土耳其授权销售合作伙伴关系",
+            "为国防工业供应商管理不锈钢进口",
+            "为医疗公司提供牙科设备进口咨询",
+            "工业涂装机械备件进口咨询"
+          ]
+        },
+        fms: {
+          company: "FMS Rock Drilling Equipments",
+          position: "外贸经理",
+          period: "2022年10月 – 2025年2月",
+          points: [
+            "从零开始建立整个出口部门",
+            "前6个月扩展到7个新国家",
+            "参加2个国内和2个国际贸易展览会",
+            "创建所有出口文档和市场分析报告"
+          ]
+        },
+        gulhan: {
+          company: "Gülhan Yedek Parça",
+          position: "外贸经理",
+          period: "2013年10月 – 2020年4月",
+          points: [
+            "管理行业领先备件制造商的进出口业务",
+            "在15个国家开发了24个新客户（英国、德国、西班牙、意大利、美国等）",
+            "将年营业额从18.5万欧元增至超过100万欧元",
+            "使公司成为主要行业参与者的OEM供应商"
+          ]
+        }
+      },
           research: "市场研究",
           customs: "海关合规",
           pricing: "定价策略",
