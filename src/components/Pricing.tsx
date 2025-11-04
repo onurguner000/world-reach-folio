@@ -49,7 +49,7 @@ export const Pricing = () => {
               {plan.popular && (
                 <div className="absolute -top-4 left-1/2 transform -translate-x-1/2 z-10">
                   <span className="bg-gradient-gold text-gold-foreground px-4 py-1 rounded-full text-sm font-semibold shadow-gold">
-                    {t('pricing.business.popular')}
+                    {t(`pricing.commission.${plan.key}.popular`)}
                   </span>
                 </div>
               )}

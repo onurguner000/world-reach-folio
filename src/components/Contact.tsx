@@ -7,9 +7,11 @@ import { Textarea } from '@/components/ui/textarea';
 import { Card } from '@/components/ui/card';
 import { toast } from 'sonner';
 import { Phone, Mail, Linkedin, Send, MapPin, Clock } from 'lucide-react';
+import { LocationModal } from './LocationModal';
 
 export const Contact = () => {
   const { t } = useTranslation();
+  const [isLocationModalOpen, setIsLocationModalOpen] = useState(false);
   const [formData, setFormData] = useState({
     name: '',
     email: '',
@@ -183,33 +185,43 @@ export const Contact = () => {
                 </motion.a>
               ))}
 
-              {/* Location Card */}
-              <motion.div
+              {/* Location Card - Clickable */}
+              <motion.button
+                onClick={() => setIsLocationModalOpen(true)}
                 initial={{ opacity: 0, y: 20 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ delay: 0.3 }}
+                whileHover={{ scale: 1.03, y: -5 }}
+                className="w-full text-left"
               >
-                <Card className="p-6 bg-card/80 backdrop-blur-sm border-border shadow-elegant">
+                <Card className="p-6 bg-card/80 backdrop-blur-sm border-border shadow-elegant hover:shadow-gold transition-all duration-300 group cursor-pointer">
                   <div className="flex items-start gap-4 mb-4">
-                    <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-green-500 to-emerald-600 flex items-center justify-center flex-shrink-0 shadow-lg">
+                    <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-green-500 to-emerald-600 flex items-center justify-center flex-shrink-0 shadow-lg group-hover:shadow-xl transition-shadow">
                       <MapPin className="w-6 h-6 text-white" />
                     </div>
                     <div className="flex-1">
-                      <p className="text-sm text-muted-foreground mb-1">Location</p>
-                      <p className="font-semibold text-foreground">Ankara, Türkiye</p>
+                      <p className="text-sm text-muted-foreground mb-1">{t('contact.location')}</p>
+                      <p className="font-semibold text-foreground group-hover:text-gold transition-colors">Çankaya, Ankara</p>
+                      <p className="text-xs text-muted-foreground mt-1 group-hover:text-foreground transition-colors">{t('contact.viewOnMap')}</p>
                     </div>
                   </div>
                   <div className="flex items-center gap-3 text-sm text-muted-foreground">
                     <Clock className="w-4 h-4" />
-                    <span>Available 24/7 for global clients</span>
+                    <span>{t('contact.available247')}</span>
                   </div>
                 </Card>
-              </motion.div>
+              </motion.button>
             </motion.div>
           </div>
         </div>
       </div>
+
+      {/* Location Modal */}
+      <LocationModal
+        isOpen={isLocationModalOpen}
+        onClose={() => setIsLocationModalOpen(false)}
+      />
     </section>
   );
 };

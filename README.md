@@ -62,12 +62,32 @@ This project is built with:
 
 ## How can I deploy this project?
 
-Simply open [Lovable](https://lovable.dev/projects/78a4f267-21e6-425c-974f-f42fca8b725b) and click on Share -> Publish.
+### Option 1: Vercel (Recommended) 🚀
 
-## Can I connect a custom domain to my Lovable project?
+**Detaylı deployment guide için:**
+📖 **[VERCEL_DEPLOYMENT_GUIDE.md](./VERCEL_DEPLOYMENT_GUIDE.md)** dosyasını okuyun.
+
+**Hızlı Deploy:**
+1. GitHub'a push edin: `git push origin main`
+2. Vercel'e gidin: https://vercel.com
+3. "Import Project" → GitHub repository'nizi seçin
+4. "Deploy" butonuna tıklayın
+5. ✅ 2-3 dakikada canlıya alınır!
+
+**Auto-Deploy:** Her `git push` otomatik deploy edilir.
+
+### Option 2: Lovable
+
+Simply open [Lovable](https://lovable.dev/projects/78a4f267-21e6-425c-974f-f42fca8b725b) and click on Share → Publish.
+
+## Can I connect a custom domain?
 
 Yes, you can!
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+**Vercel'de:**
+- Project > Settings > Domains > Add Domain
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+**Lovable'da:**
+- Project > Settings > Domains > Connect Domain
+
+Read more: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)

@@ -4,6 +4,7 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { Menu, X } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { LanguageSwitcher } from './LanguageSwitcher';
+import { CalendlyButton } from './CalendlyButton';
 
 export const Navbar = () => {
   const { t } = useTranslation();
@@ -61,15 +62,18 @@ export const Navbar = () => {
               e.preventDefault();
               scrollToSection('#home');
             }}
-            className="font-display text-2xl sm:text-3xl font-bold bg-gradient-gold bg-clip-text text-transparent cursor-pointer flex-shrink-0"
+            className="cursor-pointer flex-shrink-0"
             whileHover={{ 
-              scale: 1.1,
-              rotate: [0, -5, 5, 0],
+              scale: 1.05,
               transition: { duration: 0.3 }
             }}
             whileTap={{ scale: 0.95 }}
           >
-            OG
+            <img 
+              src="/19.png" 
+              alt="Onur Güner Logo" 
+              className="h-12 sm:h-14 w-auto object-contain"
+            />
           </motion.a>
 
           {/* Desktop Navigation */}
@@ -90,13 +94,14 @@ export const Navbar = () => {
             ))}
           </div>
 
-          {/* Language Switcher - Desktop */}
-          <div className="hidden lg:block flex-shrink-0">
+          {/* CTA & Language Switcher - Desktop */}
+          <div className="hidden lg:flex items-center gap-3 flex-shrink-0">
+            <CalendlyButton size="sm" />
             <LanguageSwitcher />
           </div>
 
           {/* Mobile Menu Button */}
-          <div className="lg:hidden flex items-center gap-2 sm:gap-4">
+          <div className="lg:hidden flex items-center gap-2">
             <LanguageSwitcher />
             <Button
               variant="ghost"
@@ -136,6 +141,14 @@ export const Navbar = () => {
                   {item.label}
                 </motion.a>
               ))}
+              <motion.div
+                initial={{ opacity: 0, x: -20 }}
+                animate={{ opacity: 1, x: 0 }}
+                transition={{ delay: navItems.length * 0.1 }}
+                className="pt-2"
+              >
+                <CalendlyButton size="default" className="w-full" />
+              </motion.div>
             </div>
           </motion.div>
         )}

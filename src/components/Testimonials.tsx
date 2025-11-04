@@ -10,9 +10,14 @@ import {
   CarouselPrevious,
 } from "@/components/ui/carousel";
 import Autoplay from "embla-carousel-autoplay";
+import { useRef } from 'react';
 
 export const Testimonials = () => {
   const { t } = useTranslation();
+  
+  const plugin = useRef(
+    Autoplay({ delay: 3000, stopOnInteraction: true })
+  );
 
   const testimonials = t('testimonials.items', { returnObjects: true }) as Array<{
     name: string;
@@ -42,17 +47,13 @@ export const Testimonials = () => {
         </motion.div>
 
         <Carousel
+          plugins={[plugin.current]}
           opts={{
             align: "start",
             loop: true,
           }}
-          plugins={[
-            Autoplay({
-              delay: 4000,
-              stopOnInteraction: false,
-              stopOnMouseEnter: true,
-            }),
-          ]}
+          onMouseEnter={plugin.current.stop}
+          onMouseLeave={plugin.current.reset}
           className="w-full max-w-7xl mx-auto"
         >
           <CarouselContent className="-ml-2 md:-ml-4">

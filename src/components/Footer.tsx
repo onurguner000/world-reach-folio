@@ -41,15 +41,19 @@ export const Footer = () => {
             transition={{ duration: 0.6 }}
             className="space-y-4"
           >
-            <div className="font-display text-4xl font-bold bg-gradient-gold bg-clip-text text-transparent">
-              OG
+            <div className="flex items-center">
+              <img 
+                src="/19.png" 
+                alt="Onur Güner Logo" 
+                className="h-16 w-auto object-contain"
+              />
             </div>
             <p className="text-primary-foreground/80 text-sm leading-relaxed">
               {t('hero.subtitle')}
             </p>
             <div className="flex items-center gap-2 text-sm">
               <MapPin className="w-4 h-4 text-gold" />
-              <span className="text-primary-foreground/70">Ankara, Türkiye</span>
+              <span className="text-primary-foreground/70">Çankaya, Ankara, Türkiye</span>
             </div>
           </motion.div>
 
@@ -62,7 +66,7 @@ export const Footer = () => {
             className="space-y-4"
           >
             <h3 className="font-display text-lg font-semibold text-gold">
-              {t('nav.home')}
+              {t('footer.quickLinks')}
             </h3>
             <ul className="space-y-2">
               {quickLinks.map((link, index) => (
@@ -88,7 +92,7 @@ export const Footer = () => {
             className="space-y-4"
           >
             <h3 className="font-display text-lg font-semibold text-gold">
-              {t('contact.title')}
+              {t('footer.contactInfo')}
             </h3>
             <ul className="space-y-3">
               <li>
@@ -123,7 +127,7 @@ export const Footer = () => {
                   <div className="w-8 h-8 rounded-full bg-primary-foreground/10 group-hover:bg-gold/20 flex items-center justify-center transition-all">
                     <Linkedin className="w-4 h-4" />
                   </div>
-                  <span>LinkedIn Profile</span>
+                  <span>{t('contact.info.linkedin')}</span>
                 </a>
               </li>
             </ul>
@@ -137,14 +141,16 @@ export const Footer = () => {
             transition={{ duration: 0.6, delay: 0.3 }}
             className="space-y-4"
           >
-            <h3 className="font-display text-lg font-semibold text-gold flex items-center gap-2">
+            <h3 className="font-display text-lg font-semibold text-gold flex items-center gap-2 mb-3">
               <Globe className="w-5 h-5" />
-              Language
+              {t('footer.language')}
             </h3>
-            <LanguageSwitcher />
+            <div className="[&_button]:text-primary-foreground">
+              <LanguageSwitcher />
+            </div>
             
             <div className="pt-4">
-              <h4 className="text-sm font-semibold mb-3 text-primary-foreground/90">Connect</h4>
+              <h4 className="text-sm font-semibold mb-3 text-primary-foreground/90">{t('footer.connect')}</h4>
               <div className="flex gap-3">
                 <motion.a
                   href="https://linkedin.com/in/onur-güner-2b59397a"
@@ -185,12 +191,9 @@ export const Footer = () => {
           transition={{ duration: 0.6, delay: 0.4 }}
           className="border-t border-primary-foreground/20 py-6"
         >
-          <div className="flex flex-col md:flex-row items-center justify-between gap-4 text-sm">
-            <div className="text-primary-foreground/70 text-center md:text-left">
+          <div className="flex justify-center items-center text-sm">
+            <div className="text-primary-foreground/70 text-center">
               <p>{t('footer.copyright')}</p>
-            </div>
-            <div className="text-primary-foreground/60 text-center md:text-right">
-              <p>{t('footer.poweredBy')}</p>
             </div>
           </div>
         </motion.div>
