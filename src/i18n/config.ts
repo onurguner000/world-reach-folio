@@ -525,43 +525,6 @@ const resources = {
           ]
         }
       },
-          research: "市场研究",
-          customs: "海关合规",
-          pricing: "定价策略",
-          development: "业务发展"
-        }
-      },
-      timeline: {
-        title: "我的职业道路",
-        fms: {
-          company: "FMS Rock Drilling Equipments",
-          position: "外贸经理",
-          points: [
-            "从零开始建立整个出口部门",
-            "扩展到7个新国家",
-            "参加国际展会（2个国内，2个全球）",
-            "实现100万欧元以上营业额"
-          ]
-        },
-        gulhan: {
-          company: "Gülhan Yedek Parça",
-          position: "外贸经理",
-          points: [
-            "管理行业领先制造商的进出口业务",
-            "开发24个新B2B客户",
-            "主要品牌的OEM供应商"
-          ]
-        },
-        independent: {
-          company: "独立顾问",
-          position: "国际贸易顾问",
-          period: "2020年 – 至今",
-          points: [
-            "管理中国工业公司的授权合作伙伴关系",
-            "不锈钢、牙科和工业涂料设备的进口咨询"
-          ]
-        }
-      },
       services: {
         title: "我如何帮助您",
         tagline: "量身定制的策略，将您的业务与世界连接。",
