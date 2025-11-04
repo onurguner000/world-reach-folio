@@ -37,12 +37,17 @@ export const Navbar = () => {
 
   return (
     <motion.nav
-      initial={{ y: -100 }}
-      animate={{ y: 0 }}
+      initial={{ y: -100, opacity: 0 }}
+      animate={{ y: 0, opacity: 1 }}
+      transition={{ 
+        duration: 0.6,
+        type: "spring",
+        stiffness: 100
+      }}
       className={`
         fixed top-0 left-0 right-0 z-50 transition-all duration-300
         ${isScrolled 
-          ? 'bg-background/80 backdrop-blur-glass shadow-elegant' 
+          ? 'bg-background/95 backdrop-blur-glass shadow-elegant' 
           : 'bg-transparent'
         }
       `}
@@ -56,8 +61,13 @@ export const Navbar = () => {
               e.preventDefault();
               scrollToSection('#home');
             }}
-            className="font-display text-2xl font-bold bg-gradient-gold bg-clip-text text-transparent"
-            whileHover={{ scale: 1.05 }}
+            className="font-display text-3xl font-bold bg-gradient-gold bg-clip-text text-transparent cursor-pointer"
+            whileHover={{ 
+              scale: 1.1,
+              rotate: [0, -5, 5, 0],
+              transition: { duration: 0.3 }
+            }}
+            whileTap={{ scale: 0.95 }}
           >
             OG
           </motion.a>

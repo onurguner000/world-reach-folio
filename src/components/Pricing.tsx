@@ -2,11 +2,14 @@ import { useTranslation } from 'react-i18next';
 import { motion } from 'framer-motion';
 import { Button } from '@/components/ui/button';
 import { Check } from 'lucide-react';
+import { useState } from 'react';
+import { PricingDetailModal } from './PricingDetailModal';
 
 export const Pricing = () => {
   const { t } = useTranslation();
+  const [selectedPlan, setSelectedPlan] = useState<'starter' | 'business' | 'enterprise' | null>(null);
 
-  const plans = [
+  const plans: Array<{ key: 'starter' | 'business' | 'enterprise', popular: boolean }> = [
     { key: 'starter', popular: false },
     { key: 'business', popular: true },
     { key: 'enterprise', popular: false },
@@ -77,10 +80,7 @@ export const Pricing = () => {
                       : 'bg-primary text-primary-foreground hover:bg-primary/90'
                   }`}
                   size="lg"
-                  onClick={() => {
-                    const element = document.getElementById('contact');
-                    if (element) element.scrollIntoView({ behavior: 'smooth' });
-                  }}
+                  onClick={() => setSelectedPlan(plan.key)}
                 >
                   {t('pricing.customize')}
                 </Button>
@@ -89,6 +89,12 @@ export const Pricing = () => {
           ))}
         </div>
       </div>
+
+      <PricingDetailModal
+        isOpen={selectedPlan !== null}
+        onClose={() => setSelectedPlan(null)}
+        planKey={selectedPlan || 'starter'}
+      />
     </section>
   );
 };

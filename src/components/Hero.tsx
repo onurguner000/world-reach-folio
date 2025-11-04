@@ -35,41 +35,82 @@ export const Hero = () => {
         <div className="max-w-5xl mx-auto text-center">
           {/* Profile Photo */}
           <motion.div
-            initial={{ scale: 0, opacity: 0 }}
-            animate={{ scale: 1, opacity: 1 }}
-            transition={{ duration: 0.6, delay: 0.2 }}
+            initial={{ scale: 0, opacity: 0, rotateY: 180 }}
+            animate={{ scale: 1, opacity: 1, rotateY: 0 }}
+            transition={{ 
+              duration: 0.8, 
+              delay: 0.2,
+              type: "spring",
+              stiffness: 100
+            }}
             className="mb-8 flex justify-center"
           >
-            <div className="relative w-40 h-40 rounded-full overflow-hidden ring-4 ring-gold shadow-gold animate-glow-pulse">
+            <motion.div 
+              className="relative w-48 h-48 rounded-full overflow-hidden ring-4 ring-gold shadow-gold"
+              animate={{ 
+                boxShadow: [
+                  "0 0 20px rgba(212, 175, 55, 0.3)",
+                  "0 0 40px rgba(212, 175, 55, 0.6)",
+                  "0 0 20px rgba(212, 175, 55, 0.3)"
+                ]
+              }}
+              transition={{ 
+                duration: 2, 
+                repeat: Infinity,
+                ease: "easeInOut"
+              }}
+            >
               <div className="w-full h-full bg-gradient-navy flex items-center justify-center">
-                <span className="text-6xl font-display text-gold">OG</span>
+                <motion.span 
+                  className="text-7xl font-display text-gold"
+                  initial={{ opacity: 0, scale: 0.5 }}
+                  animate={{ opacity: 1, scale: 1 }}
+                  transition={{ delay: 0.5, duration: 0.5 }}
+                >
+                  OG
+                </motion.span>
               </div>
-            </div>
+            </motion.div>
           </motion.div>
 
           {/* Title */}
           <motion.h1
             initial={{ y: 50, opacity: 0 }}
             animate={{ y: 0, opacity: 1 }}
-            transition={{ duration: 0.8, delay: 0.4 }}
+            transition={{ 
+              duration: 0.8, 
+              delay: 0.6,
+              type: "spring",
+              stiffness: 80
+            }}
             className="font-display text-5xl sm:text-6xl lg:text-7xl font-bold mb-4 bg-gradient-navy bg-clip-text text-transparent"
           >
             {t('hero.title')}
           </motion.h1>
 
           <motion.p
-            initial={{ y: 50, opacity: 0 }}
+            initial={{ y: 30, opacity: 0 }}
             animate={{ y: 0, opacity: 1 }}
-            transition={{ duration: 0.8, delay: 0.6 }}
+            transition={{ 
+              duration: 0.6, 
+              delay: 0.8,
+              type: "spring",
+              stiffness: 100
+            }}
             className="text-xl sm:text-2xl font-medium text-gold mb-6"
           >
             {t('hero.subtitle')}
           </motion.p>
 
           <motion.p
-            initial={{ y: 50, opacity: 0 }}
+            initial={{ y: 30, opacity: 0 }}
             animate={{ y: 0, opacity: 1 }}
-            transition={{ duration: 0.8, delay: 0.8 }}
+            transition={{ 
+              duration: 0.6, 
+              delay: 1,
+              type: "spring",
+              stiffness: 100
+            }}
             className="text-lg text-muted-foreground max-w-3xl mx-auto mb-12"
           >
             {t('hero.description')}
@@ -77,33 +118,44 @@ export const Hero = () => {
 
           {/* CTA Buttons */}
           <motion.div
-            initial={{ y: 50, opacity: 0 }}
+            initial={{ y: 30, opacity: 0 }}
             animate={{ y: 0, opacity: 1 }}
-            transition={{ duration: 0.8, delay: 1 }}
+            transition={{ 
+              duration: 0.6, 
+              delay: 1.2,
+              type: "spring",
+              stiffness: 100
+            }}
             className="flex flex-wrap gap-4 justify-center mb-12"
           >
-            <Button
-              size="lg"
-              onClick={() => scrollToSection('about')}
-              className="bg-primary hover:bg-primary/90 text-primary-foreground shadow-elegant"
-            >
-              {t('hero.viewPortfolio')}
-            </Button>
-            <Button
-              size="lg"
-              variant="outline"
-              onClick={() => scrollToSection('contact')}
-              className="border-gold text-gold hover:bg-gold hover:text-gold-foreground"
-            >
-              {t('hero.requestConsultancy')}
-            </Button>
-            <Button
-              size="lg"
-              variant="outline"
-              onClick={() => scrollToSection('pricing')}
-            >
-              {t('hero.customPricing')}
-            </Button>
+            <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
+              <Button
+                size="lg"
+                onClick={() => scrollToSection('about')}
+                className="bg-primary hover:bg-primary/90 text-primary-foreground shadow-elegant"
+              >
+                {t('hero.viewPortfolio')}
+              </Button>
+            </motion.div>
+            <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
+              <Button
+                size="lg"
+                variant="gold"
+                onClick={() => scrollToSection('contact')}
+              >
+                {t('hero.requestConsultancy')}
+              </Button>
+            </motion.div>
+            <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
+              <Button
+                size="lg"
+                variant="outline"
+                onClick={() => scrollToSection('pricing')}
+                className="border-gold text-gold hover:bg-gold/10"
+              >
+                {t('hero.customPricing')}
+              </Button>
+            </motion.div>
           </motion.div>
 
           {/* Social Links */}

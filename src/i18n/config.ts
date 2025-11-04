@@ -112,41 +112,68 @@ const resources = {
           }
         }
       },
-      pricing: {
-        title: "Work With Me",
-        starter: {
-          name: "Starter",
-          price: "From €500",
-          features: [
-            "Initial market research",
-            "Supplier identification",
-            "Basic pricing analysis",
-            "Email support"
-          ]
+        pricing: {
+          title: "Work With Me",
+          starter: {
+            name: "Starter",
+            price: "From €500",
+            description: "Perfect for initial market exploration and supplier identification.",
+            features: [
+              "Initial market research",
+              "Supplier identification",
+              "Basic pricing analysis",
+              "Email support"
+            ]
+          },
+          business: {
+            name: "Business",
+            price: "From €1,500",
+            popular: "Most Popular",
+            description: "Comprehensive support for complete import/export operations.",
+            features: [
+              "Complete import/export management",
+              "Supplier verification & negotiation",
+              "Documentation & customs support",
+              "Priority support"
+            ]
+          },
+          enterprise: {
+            name: "Enterprise",
+            price: "Custom",
+            description: "Full-scale trade operations management with dedicated support.",
+            features: [
+              "Full trade operations management",
+              "Distributor network development",
+              "Trade fair representation",
+              "24/7 dedicated support"
+            ]
+          },
+          customize: "Customize Your Plan",
+          form: {
+            title: "Get Started",
+            included: "What's Included",
+            name: "Full Name",
+            namePlaceholder: "John Doe",
+            email: "Email Address",
+            emailPlaceholder: "john@company.com",
+            company: "Company Name",
+            companyPlaceholder: "Your Company Ltd.",
+            phone: "Phone Number",
+            phonePlaceholder: "+90 555 123 4567",
+            productType: "Product Type",
+            productTypePlaceholder: "e.g., Industrial machinery, textiles, electronics",
+            targetCountries: "Target Countries",
+            targetCountriesPlaceholder: "e.g., Germany, USA, China",
+            budget: "Estimated Budget",
+            budgetPlaceholder: "e.g., €10,000 - €50,000",
+            message: "Additional Details",
+            messagePlaceholder: "Tell me more about your project and requirements...",
+            submit: "Send Request",
+            sending: "Sending...",
+            successTitle: "Request Sent!",
+            successMessage: "Thank you for your interest. I'll review your request and get back to you within 24 hours."
+          }
         },
-        business: {
-          name: "Business",
-          price: "From €1,500",
-          popular: "Most Popular",
-          features: [
-            "Complete import/export management",
-            "Supplier verification & negotiation",
-            "Documentation & customs support",
-            "Priority support"
-          ]
-        },
-        enterprise: {
-          name: "Enterprise",
-          price: "Custom",
-          features: [
-            "Full trade operations management",
-            "Distributor network development",
-            "Trade fair representation",
-            "24/7 dedicated support"
-          ]
-        },
-        customize: "Customize Your Plan"
-      },
       testimonials: {
         title: "Trusted by Professionals",
         items: [
@@ -304,6 +331,7 @@ const resources = {
         starter: {
           name: "Başlangıç",
           price: "500€'dan itibaren",
+          description: "İlk pazar keşfi ve tedarikçi tanımlama için mükemmel.",
           features: [
             "İlk pazar araştırması",
             "Tedarikçi tanımlama",
@@ -315,6 +343,7 @@ const resources = {
           name: "İşletme",
           price: "1.500€'dan itibaren",
           popular: "En Popüler",
+          description: "Komple ithalat/ihracat operasyonları için kapsamlı destek.",
           features: [
             "Komple ithalat/ihracat yönetimi",
             "Tedarikçi doğrulama & müzakere",
@@ -325,6 +354,7 @@ const resources = {
         enterprise: {
           name: "Kurumsal",
           price: "Özel",
+          description: "Özel destekle tam ölçekli ticaret operasyonları yönetimi.",
           features: [
             "Tam ticaret operasyonları yönetimi",
             "Distribütör ağı geliştirme",
@@ -332,7 +362,31 @@ const resources = {
             "7/24 özel destek"
           ]
         },
-        customize: "Planınızı Özelleştirin"
+        customize: "Planınızı Özelleştirin",
+        form: {
+          title: "Başlayın",
+          included: "Dahil Olanlar",
+          name: "Adınız Soyadınız",
+          namePlaceholder: "Ahmet Yılmaz",
+          email: "E-posta Adresi",
+          emailPlaceholder: "ahmet@sirket.com",
+          company: "Şirket Adı",
+          companyPlaceholder: "Şirketiniz A.Ş.",
+          phone: "Telefon Numarası",
+          phonePlaceholder: "+90 555 123 4567",
+          productType: "Ürün Tipi",
+          productTypePlaceholder: "örn., Endüstriyel makine, tekstil, elektronik",
+          targetCountries: "Hedef Ülkeler",
+          targetCountriesPlaceholder: "örn., Almanya, ABD, Çin",
+          budget: "Tahmini Bütçe",
+          budgetPlaceholder: "örn., €10.000 - €50.000",
+          message: "Ek Detaylar",
+          messagePlaceholder: "Projeniz ve gereksinimleriniz hakkında daha fazla bilgi verin...",
+          submit: "Talep Gönder",
+          sending: "Gönderiliyor...",
+          successTitle: "Talep Gönderildi!",
+          successMessage: "İlginiz için teşekkür ederim. Talebinizi inceleyip 24 saat içinde size dönüş yapacağım."
+        }
       },
       testimonials: {
         title: "Profesyoneller Tarafından Güvenilir",
@@ -491,6 +545,7 @@ const resources = {
         starter: {
           name: "入门",
           price: "€500起",
+          description: "适合初步市场探索和供应商识别。",
           features: [
             "初步市场研究",
             "供应商识别",
@@ -502,6 +557,7 @@ const resources = {
           name: "商业",
           price: "€1,500起",
           popular: "最受欢迎",
+          description: "全面支持完整的进出口业务。",
           features: [
             "完整的进出口管理",
             "供应商验证与谈判",
@@ -512,6 +568,7 @@ const resources = {
         enterprise: {
           name: "企业",
           price: "定制",
+          description: "提供专属支持的全面贸易运营管理。",
           features: [
             "全面贸易运营管理",
             "分销商网络开发",
@@ -519,7 +576,31 @@ const resources = {
             "全天候专属支持"
           ]
         },
-        customize: "定制您的计划"
+        customize: "定制您的计划",
+        form: {
+          title: "开始",
+          included: "包含内容",
+          name: "姓名",
+          namePlaceholder: "张三",
+          email: "电子邮件地址",
+          emailPlaceholder: "zhang@company.com",
+          company: "公司名称",
+          companyPlaceholder: "贵公司有限公司",
+          phone: "电话号码",
+          phonePlaceholder: "+86 138 0000 0000",
+          productType: "产品类型",
+          productTypePlaceholder: "例如：工业机械、纺织品、电子产品",
+          targetCountries: "目标国家",
+          targetCountriesPlaceholder: "例如：德国、美国、中国",
+          budget: "预算估计",
+          budgetPlaceholder: "例如：€10,000 - €50,000",
+          message: "其他详情",
+          messagePlaceholder: "告诉我更多关于您的项目和需求...",
+          submit: "发送请求",
+          sending: "发送中...",
+          successTitle: "请求已发送！",
+          successMessage: "感谢您的关注。我将审查您的请求并在24小时内回复您。"
+        }
       },
       testimonials: {
         title: "专业人士的信赖",
