@@ -43,6 +43,12 @@ export const de = {
         "Aufbau von Händlernetzwerken in Europa, Asien, Südafrika, Nahost und den USA.",
         "Experte für Verhandlungen, Zollvorschriften und globale Preisstrategien."
       ],
+      stats: {
+        continents: "Kontinente",
+        exports: "Exporte",
+        revenue: "Umsatzwachstum",
+        experience: "Jahre Erfahrung"
+      },
       achievements: "Wichtige Erfolge",
       coreExpertise: "Kernkompetenz",
       skills: {

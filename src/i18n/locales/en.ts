@@ -43,6 +43,12 @@ export const en = {
         "Built distributor networks across Europe, Asia, South Africa, Middle East, and US.",
         "Expert in negotiation, customs compliance, and global pricing strategy."
       ],
+      stats: {
+        continents: "Continents",
+        exports: "Exports",
+        revenue: "Revenue Growth",
+        experience: "Years Experience"
+      },
       achievements: "Key Achievements",
       coreExpertise: "Core Expertise",
       skills: {

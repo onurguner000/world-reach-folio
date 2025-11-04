@@ -23,10 +23,10 @@ export const Profile = () => {
   ];
 
   const stats = [
-    { icon: Globe, value: '7', label: 'Kıta', color: 'from-blue-500 to-cyan-500' },
-    { icon: TrendingUp, value: '525+', label: 'İhracat', color: 'from-green-500 to-emerald-500' },
-    { icon: Trophy, value: '€1M+', label: 'Ciro Artışı', color: 'from-gold to-yellow-500' },
-    { icon: Users, value: '14+', label: 'Yıl Deneyim', color: 'from-purple-500 to-pink-500' },
+    { icon: Globe, value: '7', label: t('profile.stats.continents'), color: 'from-blue-500 to-cyan-500' },
+    { icon: TrendingUp, value: '525+', label: t('profile.stats.exports'), color: 'from-green-500 to-emerald-500' },
+    { icon: Trophy, value: '€1M+', label: t('profile.stats.revenue'), color: 'from-gold to-yellow-500' },
+    { icon: Users, value: '14+', label: t('profile.stats.experience'), color: 'from-purple-500 to-pink-500' },
   ];
 
   return (

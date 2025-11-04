@@ -43,6 +43,12 @@ export const es = {
         "Construí redes de distribuidores en Europa, Asia, Sudáfrica, Medio Oriente y EE.UU.",
         "Experto en negociación, cumplimiento aduanero y estrategia de precios global."
       ],
+      stats: {
+        continents: "Continentes",
+        exports: "Exportaciones",
+        revenue: "Crecimiento de Ingresos",
+        experience: "Años de Experiencia"
+      },
       achievements: "Logros Clave",
       coreExpertise: "Experiencia Principal",
       skills: {

@@ -43,6 +43,12 @@ export const tr = {
         "Avrupa, Asya, Güney Afrika, Orta Doğu ve ABD'de distribütör ağları kurdum.",
         "Müzakere, gümrük uyumu ve küresel fiyatlandırma stratejisinde uzmanım."
       ],
+      stats: {
+        continents: "Kıta",
+        exports: "İhracat",
+        revenue: "Ciro Artışı",
+        experience: "Yıl Deneyim"
+      },
       achievements: "Başlıca Başarılar",
       coreExpertise: "Temel Uzmanlık",
       skills: {

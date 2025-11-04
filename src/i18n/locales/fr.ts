@@ -43,6 +43,12 @@ export const fr = {
         "Construit des réseaux de distributeurs en Europe, Asie, Afrique du Sud, Moyen-Orient et aux États-Unis.",
         "Expert en négociation, conformité douanière et stratégie de tarification mondiale."
       ],
+      stats: {
+        continents: "Continents",
+        exports: "Exportations",
+        revenue: "Croissance des Revenus",
+        experience: "Années d'Expérience"
+      },
       achievements: "Réalisations Clés",
       coreExpertise: "Expertise Principale",
       skills: {

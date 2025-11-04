@@ -43,6 +43,12 @@ export const zh = {
         "在欧洲、亚洲、南非、中东和美国建立分销商网络。",
         "谈判、海关合规和全球定价策略专家。"
       ],
+      stats: {
+        continents: "大洲",
+        exports: "出口",
+        revenue: "收入增长",
+        experience: "年经验"
+      },
       achievements: "主要成就",
       coreExpertise: "核心专长",
       skills: {
