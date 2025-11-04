@@ -25,9 +25,14 @@ export const Pricing = () => {
           transition={{ duration: 0.8 }}
           className="text-center mb-16"
         >
-          <h2 className="font-display text-4xl sm:text-5xl font-bold mb-6 bg-gradient-navy bg-clip-text text-transparent">
+          <h2 className="font-display text-4xl sm:text-5xl font-bold mb-4 bg-gradient-navy bg-clip-text text-transparent">
             {t('pricing.title')}
           </h2>
+          <p className="text-lg text-muted-foreground mb-2">{t('pricing.subtitle')}</p>
+          <div className="max-w-3xl mx-auto mt-6 p-6 bg-card/50 rounded-2xl border border-gold/20">
+            <h3 className="font-semibold text-xl mb-2 text-gold">{t('pricing.commission.title')}</h3>
+            <p className="text-muted-foreground">{t('pricing.commission.description')}</p>
+          </div>
         </motion.div>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto">
@@ -55,17 +60,20 @@ export const Pricing = () => {
                 transition-all duration-300
               `}>
                 <h3 className="font-display text-2xl font-bold mb-2">
-                  {t(`pricing.${plan.key}.name`)}
+                  {t(`pricing.commission.${plan.key}.name`)}
                 </h3>
 
                 <div className="mb-6">
-                  <span className="text-4xl font-bold text-gold">
-                    {t(`pricing.${plan.key}.price`)}
+                  <span className="text-5xl font-bold text-gold">
+                    {t(`pricing.commission.${plan.key}.rate`)}
                   </span>
+                  <p className="text-sm text-muted-foreground mt-2">
+                    {t(`pricing.commission.${plan.key}.description`)}
+                  </p>
                 </div>
 
                 <ul className="space-y-4 mb-8">
-                  {(t(`pricing.${plan.key}.features`, { returnObjects: true }) as string[]).map((feature, i) => (
+                  {(t(`pricing.commission.${plan.key}.features`, { returnObjects: true }) as string[]).map((feature, i) => (
                     <li key={i} className="flex items-start gap-3">
                       <Check className="w-5 h-5 text-gold flex-shrink-0 mt-0.5" />
                       <span className="text-muted-foreground">{feature}</span>

@@ -59,7 +59,7 @@ const resources = {
           period: "March 2025 – Present",
           points: [
             "Managing Turkey authorized sales partnership with global Chinese manufacturer",
-            "Stainless steel import management for defense industry supplier",
+            "Stainless steel import for defense industry (MKE weapon parts production)",
             "Dental equipment import consultancy for medical company",
             "Industrial paint machine spare parts import consultancy"
           ]
@@ -70,9 +70,20 @@ const resources = {
           period: "October 2022 – February 2025",
           points: [
             "Built entire export department from scratch",
-            "Expanded to 7 new countries in the first 6 months",
+            "Expanded to 7 new countries in first 6 months",
             "Attended 2 domestic and 2 international trade fairs",
             "Created all export documentation and market analysis reports"
+          ]
+        },
+        consultant2020: {
+          company: "Independent Consultant",
+          position: "International Trade Consultant",
+          period: "October 2020 – October 2022",
+          points: [
+            "Provided consultancy to 3 SME companies",
+            "Built import/export systems from ground up",
+            "Strategic export planning and B2B/B2C management",
+            "HS Code determination and cost analysis"
           ]
         },
         gulhan: {
@@ -80,10 +91,30 @@ const resources = {
           position: "Foreign Trade Manager",
           period: "October 2013 – April 2020",
           points: [
-            "Managed import/export for industry-leading spare part manufacturer",
-            "Developed 24 new customers across 15 countries (UK, Germany, Spain, Italy, US, etc.)",
-            "Increased annual turnover from €185K to over €1M",
-            "Made company an OEM supplier to major industry players"
+            "Managed 4-person team handling import/export operations",
+            "Developed 24 new customers across 15 countries",
+            "Increased turnover from €185K to €1M+ (2013-2015)",
+            "Made company OEM supplier to major industry players"
+          ]
+        },
+        officer: {
+          company: "Gülhan Yedek Parça",
+          position: "Foreign Trade Officer",
+          period: "August 2012 – October 2013",
+          points: [
+            "Coordinated foreign trade negotiations and presentations",
+            "Quality control, labeling, packaging oversight",
+            "Attended international fairs for client relations"
+          ]
+        },
+        assistant: {
+          company: "Gülhan Yedek Parça",
+          position: "Foreign Trade Assistant",
+          period: "November 2011 – August 2012",
+          points: [
+            "Conducted market research and trade trend analysis",
+            "Prepared international trade documentation",
+            "Assisted in logistics and inventory management"
           ]
         }
       },
@@ -119,41 +150,48 @@ const resources = {
       },
         pricing: {
           title: "Work With Me",
-          starter: {
-            name: "Starter",
-            price: "From €500",
-            description: "Perfect for initial market exploration and supplier identification.",
-            features: [
-              "Initial market research",
-              "Supplier identification",
-              "Basic pricing analysis",
-              "Email support"
-            ]
+          subtitle: "Commission-based partnership model",
+          commission: {
+            title: "Sales Commission Structure",
+            description: "I work on a success-based commission model, earning a percentage of completed sales transactions.",
+            starter: {
+              name: "Basic Commission",
+              rate: "3-5%",
+              description: "Ideal for single transactions and initial market testing.",
+              features: [
+                "Commission on completed sales only",
+                "Basic market research and supplier identification",
+                "Email and phone support",
+                "Payment after successful transaction completion"
+              ]
+            },
+            business: {
+              name: "Standard Partnership",
+              rate: "5-8%",
+              popular: "Most Popular",
+              description: "Comprehensive commission-based partnership for ongoing business.",
+              features: [
+                "Percentage-based commission on all sales",
+                "Full import/export management and documentation",
+                "Supplier verification and negotiation",
+                "Priority support and monthly reporting",
+                "Customs compliance assistance"
+              ]
+            },
+            enterprise: {
+              name: "Strategic Partnership",
+              rate: "8-12%",
+              description: "Long-term strategic partnership with dedicated support and market development.",
+              features: [
+                "Higher commission rate for exclusive partnership",
+                "Full trade operations and distributor network development",
+                "Trade fair representation",
+                "24/7 dedicated support",
+                "Strategic market expansion planning"
+              ]
+            }
           },
-          business: {
-            name: "Business",
-            price: "From €1,500",
-            popular: "Most Popular",
-            description: "Comprehensive support for complete import/export operations.",
-            features: [
-              "Complete import/export management",
-              "Supplier verification & negotiation",
-              "Documentation & customs support",
-              "Priority support"
-            ]
-          },
-          enterprise: {
-            name: "Enterprise",
-            price: "Custom",
-            description: "Full-scale trade operations management with dedicated support.",
-            features: [
-              "Full trade operations management",
-              "Distributor network development",
-              "Trade fair representation",
-              "24/7 dedicated support"
-            ]
-          },
-          customize: "Customize Your Plan",
+          customize: "Discuss Custom Terms",
           form: {
             title: "Get Started",
             included: "What's Included",
@@ -278,7 +316,7 @@ const resources = {
           period: "Mart 2025 – Günümüz",
           points: [
             "Küresel Çinli üretici ile Türkiye yetkili satış ortaklığı yönetimi",
-            "Savunma sanayi tedarikçisi için paslanmaz çelik ithalat yönetimi",
+            "Savunma sanayi için paslanmaz çelik ithalatı (MKE silah parçası üretimi)",
             "Medikal şirket için dental ekipman ithalat danışmanlığı",
             "Endüstriyel boya makinesi yedek parçaları ithalat danışmanlığı"
           ]
@@ -294,15 +332,46 @@ const resources = {
             "Tüm ihracat dokümantasyonunu ve pazar analiz raporlarını oluşturdum"
           ]
         },
+        consultant2020: {
+          company: "Bağımsız Danışman",
+          position: "Uluslararası Ticaret Danışmanı",
+          period: "Ekim 2020 – Ekim 2022",
+          points: [
+            "3 KOBİ şirketine danışmanlık hizmeti verdim",
+            "Sıfırdan ithalat/ihracat sistemleri kurdum",
+            "Stratejik ihracat planlaması ve B2B/B2C yönetimi",
+            "GTİP kodu belirleme ve maliyet analizi"
+          ]
+        },
         gulhan: {
           company: "Gülhan Yedek Parça",
           position: "Dış Ticaret Müdürü",
           period: "Ekim 2013 – Nisan 2020",
           points: [
-            "Sektör lideri yedek parça üreticisi için ithalat/ihracat yönetimi",
-            "15 ülkede 24 yeni müşteri geliştirdim (İngiltere, Almanya, İspanya, İtalya, ABD, vb.)",
-            "Yıllık ciroyu 185 bin €'dan 1 milyon €'nun üzerine çıkardım",
+            "4 kişilik ekibi yöneterek ithalat/ihracat operasyonlarını yürüttüm",
+            "15 ülkede 24 yeni müşteri geliştirdim",
+            "Ciroyu 185 bin €'dan 1 milyon €'nun üzerine çıkardım (2013-2015)",
             "Şirketi büyük sektör oyuncuları için OEM tedarikçi yaptım"
+          ]
+        },
+        officer: {
+          company: "Gülhan Yedek Parça",
+          position: "Dış Ticaret Uzmanı",
+          period: "Ağustos 2012 – Ekim 2013",
+          points: [
+            "Dış ticaret müzakerelerini ve sunumlarını koordine ettim",
+            "Kalite kontrol, etiketleme, paketleme gözetimi",
+            "Müşteri ilişkileri için uluslararası fuarlara katıldım"
+          ]
+        },
+        assistant: {
+          company: "Gülhan Yedek Parça",
+          position: "Dış Ticaret Asistanı",
+          period: "Kasım 2011 – Ağustos 2012",
+          points: [
+            "Pazar araştırması ve ticaret trendleri analizi yaptım",
+            "Uluslararası ticaret dokümantasyonu hazırladım",
+            "Lojistik ve envanter yönetiminde yardımcı oldum"
           ]
         }
       },
@@ -338,41 +407,48 @@ const resources = {
       },
       pricing: {
         title: "Benimle Çalışın",
-        starter: {
-          name: "Başlangıç",
-          price: "500€'dan itibaren",
-          description: "İlk pazar keşfi ve tedarikçi tanımlama için mükemmel.",
-          features: [
-            "İlk pazar araştırması",
-            "Tedarikçi tanımlama",
-            "Temel fiyat analizi",
-            "E-posta desteği"
-          ]
+        subtitle: "Komisyon bazlı ortaklık modeli",
+        commission: {
+          title: "Satış Komisyon Yapısı",
+          description: "Başarı odaklı komisyon modeliyle çalışıyorum, tamamlanan satış işlemlerinden yüzde alıyorum.",
+          starter: {
+            name: "Temel Komisyon",
+            rate: "%3-5",
+            description: "Tek seferlik işlemler ve ilk pazar testleri için ideal.",
+            features: [
+              "Sadece tamamlanan satışlardan komisyon",
+              "Temel pazar araştırması ve tedarikçi tanımlama",
+              "E-posta ve telefon desteği",
+              "Başarılı işlem sonrası ödeme"
+            ]
+          },
+          business: {
+            name: "Standart Ortaklık",
+            rate: "%5-8",
+            popular: "En Popüler",
+            description: "Devam eden iş için kapsamlı komisyon bazlı ortaklık.",
+            features: [
+              "Tüm satışlardan yüzde bazlı komisyon",
+              "Tam ithalat/ihracat yönetimi ve dokümantasyon",
+              "Tedarikçi doğrulama ve müzakere",
+              "Öncelikli destek ve aylık raporlama",
+              "Gümrük uyumu yardımı"
+            ]
+          },
+          enterprise: {
+            name: "Stratejik Ortaklık",
+            rate: "%8-12",
+            description: "Özel destek ve pazar geliştirme ile uzun vadeli stratejik ortaklık.",
+            features: [
+              "Özel ortaklık için daha yüksek komisyon oranı",
+              "Tam ticaret operasyonları ve distribütör ağı geliştirme",
+              "Fuar temsili",
+              "7/24 özel destek",
+              "Stratejik pazar genişleme planlaması"
+            ]
+          }
         },
-        business: {
-          name: "İşletme",
-          price: "1.500€'dan itibaren",
-          popular: "En Popüler",
-          description: "Komple ithalat/ihracat operasyonları için kapsamlı destek.",
-          features: [
-            "Komple ithalat/ihracat yönetimi",
-            "Tedarikçi doğrulama & müzakere",
-            "Dokümantasyon & gümrük desteği",
-            "Öncelikli destek"
-          ]
-        },
-        enterprise: {
-          name: "Kurumsal",
-          price: "Özel",
-          description: "Özel destekle tam ölçekli ticaret operasyonları yönetimi.",
-          features: [
-            "Tam ticaret operasyonları yönetimi",
-            "Distribütör ağı geliştirme",
-            "Fuar temsili",
-            "7/24 özel destek"
-          ]
-        },
-        customize: "Planınızı Özelleştirin",
+        customize: "Özel Şartları Görüşün",
         form: {
           title: "Başlayın",
           included: "Dahil Olanlar",
@@ -497,7 +573,7 @@ const resources = {
           period: "2025年3月 – 至今",
           points: [
             "管理与全球中国制造商的土耳其授权销售合作伙伴关系",
-            "为国防工业供应商管理不锈钢进口",
+            "为国防工业管理不锈钢进口（MKE武器零件生产）",
             "为医疗公司提供牙科设备进口咨询",
             "工业涂装机械备件进口咨询"
           ]
@@ -513,15 +589,46 @@ const resources = {
             "创建所有出口文档和市场分析报告"
           ]
         },
+        consultant2020: {
+          company: "独立顾问",
+          position: "国际贸易顾问",
+          period: "2020年10月 – 2022年10月",
+          points: [
+            "为3家中小企业提供咨询服务",
+            "从零开始建立进出口系统",
+            "战略出口规划和B2B/B2C管理",
+            "HS编码确定和成本分析"
+          ]
+        },
         gulhan: {
           company: "Gülhan Yedek Parça",
           position: "外贸经理",
           period: "2013年10月 – 2020年4月",
           points: [
-            "管理行业领先备件制造商的进出口业务",
-            "在15个国家开发了24个新客户（英国、德国、西班牙、意大利、美国等）",
-            "将年营业额从18.5万欧元增至超过100万欧元",
+            "管理4人团队处理进出口业务",
+            "在15个国家开发24个新客户",
+            "将营业额从18.5万欧元增至100万欧元以上（2013-2015）",
             "使公司成为主要行业参与者的OEM供应商"
+          ]
+        },
+        officer: {
+          company: "Gülhan Yedek Parça",
+          position: "外贸专员",
+          period: "2012年8月 – 2013年10月",
+          points: [
+            "协调外贸谈判和演示",
+            "质量控制、标签和包装监督",
+            "参加国际展会维护客户关系"
+          ]
+        },
+        assistant: {
+          company: "Gülhan Yedek Parça",
+          position: "外贸助理",
+          period: "2011年11月 – 2012年8月",
+          points: [
+            "进行市场研究和贸易趋势分析",
+            "准备国际贸易文件",
+            "协助物流和库存管理"
           ]
         }
       },
@@ -557,41 +664,48 @@ const resources = {
       },
       pricing: {
         title: "与我合作",
-        starter: {
-          name: "入门",
-          price: "€500起",
-          description: "适合初步市场探索和供应商识别。",
-          features: [
-            "初步市场研究",
-            "供应商识别",
-            "基本价格分析",
-            "电子邮件支持"
-          ]
+        subtitle: "基于佣金的合作模式",
+        commission: {
+          title: "销售佣金结构",
+          description: "我采用基于成功的佣金模式，从完成的销售交易中获得百分比。",
+          starter: {
+            name: "基础佣金",
+            rate: "3-5%",
+            description: "适合单次交易和初始市场测试。",
+            features: [
+              "仅对完成的销售收取佣金",
+              "基本市场研究和供应商识别",
+              "电子邮件和电话支持",
+              "成功完成交易后付款"
+            ]
+          },
+          business: {
+            name: "标准合作",
+            rate: "5-8%",
+            popular: "最受欢迎",
+            description: "持续业务的全面基于佣金的合作关系。",
+            features: [
+              "所有销售的百分比佣金",
+              "完整的进出口管理和文件处理",
+              "供应商验证和谈判",
+              "优先支持和月度报告",
+              "海关合规协助"
+            ]
+          },
+          enterprise: {
+            name: "战略合作",
+            rate: "8-12%",
+            description: "提供专属支持和市场开发的长期战略合作关系。",
+            features: [
+              "独家合作的更高佣金率",
+              "全面的贸易运营和分销商网络开发",
+              "贸易展览代表",
+              "全天候专属支持",
+              "战略市场扩张规划"
+            ]
+          }
         },
-        business: {
-          name: "商业",
-          price: "€1,500起",
-          popular: "最受欢迎",
-          description: "全面支持完整的进出口业务。",
-          features: [
-            "完整的进出口管理",
-            "供应商验证与谈判",
-            "文件和海关支持",
-            "优先支持"
-          ]
-        },
-        enterprise: {
-          name: "企业",
-          price: "定制",
-          description: "提供专属支持的全面贸易运营管理。",
-          features: [
-            "全面贸易运营管理",
-            "分销商网络开发",
-            "贸易展览代表",
-            "全天候专属支持"
-          ]
-        },
-        customize: "定制您的计划",
+        customize: "讨论定制条款",
         form: {
           title: "开始",
           included: "包含内容",

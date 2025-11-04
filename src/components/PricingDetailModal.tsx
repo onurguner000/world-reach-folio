@@ -73,10 +73,10 @@ export const PricingDetailModal = ({ isOpen, onClose, planKey }: PricingDetailMo
             )}
           </div>
           <div className="text-4xl font-bold text-gold mb-4">
-            {t(`pricing.${planKey}.price`)}
+            {t(`pricing.commission.${planKey}.rate`)}
           </div>
           <DialogDescription className="text-base">
-            {t(`pricing.${planKey}.description`)}
+            {t(`pricing.commission.${planKey}.description`)}
           </DialogDescription>
         </DialogHeader>
 
@@ -93,7 +93,7 @@ export const PricingDetailModal = ({ isOpen, onClose, planKey }: PricingDetailMo
               {t('pricing.form.included')}
             </h3>
             <ul className="space-y-3">
-              {(t(`pricing.${planKey}.features`, { returnObjects: true }) as string[]).map((feature, i) => (
+              {(t(`pricing.commission.${planKey}.features`, { returnObjects: true }) as string[]).map((feature, i) => (
                 <motion.li
                   key={i}
                   initial={{ opacity: 0, x: -20 }}

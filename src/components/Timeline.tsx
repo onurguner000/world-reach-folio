@@ -17,9 +17,24 @@ export const Timeline = () => {
       period: t('timeline.fms.period')
     },
     {
+      key: 'consultant2020',
+      color: 'bg-teal-500',
+      period: t('timeline.consultant2020.period')
+    },
+    {
       key: 'gulhan',
       color: 'bg-purple-500',
       period: t('timeline.gulhan.period')
+    },
+    {
+      key: 'officer',
+      color: 'bg-indigo-500',
+      period: t('timeline.officer.period')
+    },
+    {
+      key: 'assistant',
+      color: 'bg-cyan-500',
+      period: t('timeline.assistant.period')
     }
   ];
 

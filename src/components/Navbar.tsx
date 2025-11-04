@@ -73,7 +73,7 @@ export const Navbar = () => {
           </motion.a>
 
           {/* Desktop Navigation */}
-          <div className="hidden lg:flex items-center gap-4 xl:gap-6">
+          <div className="hidden lg:flex items-center gap-3 xl:gap-5 flex-1 justify-center max-w-4xl mx-auto">
             {navItems.map((item) => (
               <a
                 key={item.href}
@@ -82,12 +82,16 @@ export const Navbar = () => {
                   e.preventDefault();
                   scrollToSection(item.href);
                 }}
-                className="text-sm xl:text-base text-foreground/80 hover:text-foreground font-medium transition-colors duration-300 relative group whitespace-nowrap"
+                className="text-sm xl:text-base text-foreground/80 hover:text-foreground font-medium transition-colors duration-300 relative group whitespace-nowrap px-2"
               >
                 {item.label}
                 <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-gradient-gold transition-all duration-300 group-hover:w-full" />
               </a>
             ))}
+          </div>
+
+          {/* Language Switcher - Desktop */}
+          <div className="hidden lg:block flex-shrink-0">
             <LanguageSwitcher />
           </div>
 
