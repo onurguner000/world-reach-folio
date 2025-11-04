@@ -207,17 +207,62 @@ export const zh = {
       }
     },
     testimonials: {
-      title: "受专业人士信赖",
+      title: "真实客户推荐",
       items: [
         {
-          name: "John Smith",
-          title: "首席执行官，欧洲矿业设备有限公司",
-          text: "Onur在短短18个月内帮助我们将出口扩展到15个新国家。他在国际贸易合规和市场分析方面的专业知识非常宝贵。"
+          name: "Emrah Değirmenci",
+          title: "总经理，Gülhan 橡胶备件",
+          text: "在与我们合作的8.5年中，Onur将我们的外贸业务转变为一个完全专业的系统。他在开拓新市场、加强客户关系和增加我们的出口量方面发挥了重要作用。"
         },
         {
-          name: "Maria Garcia",
-          title: "总监，西班牙建筑集团",
-          text: "我们合作过的最专业的贸易顾问。Onur完美地管理了我们所有的进出口文件，并获得了惊人的交易。"
+          name: "Ben Cramphorn",
+          title: "总经理，AV Industrial Products Ltd.",
+          text: "他在从生产到运输的所有外贸流程中提供了高度专业的支持。他严谨的工作态度和强大的沟通能力使我们的合作始终顺利高效。"
+        },
+        {
+          name: "Amanda",
+          title: "销售经理，Tehco Bearing Co.",
+          text: "在整个合作过程中，他以极大的勤奋管理所有订单流程。凭借他的友好态度、合作精神和专业素养，我们建立了持续8年的成功商业伙伴关系。"
+        },
+        {
+          name: "İbrahim Mutlu",
+          title: "总经理，FMS Group",
+          text: "Onur从零开始建立了我们的外贸部门。得益于他，我们开拓了新市场，进行了成功的进口，并完善了国内市场的产品线。他建立的系统至今仍在顺利运行。"
+        },
+        {
+          name: "Yalçın Özçelik",
+          title: "总经理，Özçelik Trade",
+          text: "他为根据土耳其军队技术规范从国外采购成品和定制生产做出了重大贡献。他帮助在保持质量和成本平衡的同时成功完成了所有交付。"
+        },
+        {
+          name: "Ricky Li",
+          title: "销售经理，Luoyang Golden Egret Geotools Co., Ltd.",
+          text: "Onur已被任命为我们公司在土耳其的授权销售代理。他的专业素养、可靠的方法和强大的合作精神是这一决定的决定性因素。我们相信我们将在土耳其市场上共同取得巨大成功。"
+        },
+        {
+          name: "Stefano Viello",
+          title: "市场与销售经理，Sermac S.R.L.",
+          text: "Onur确保我们从土耳其采购的关键产品按照我们自己的标准生产，并多年来顺利交付。得益于他建立的系统，我们至今仍然继续进行大量采购。"
+        },
+        {
+          name: "Mario Soria",
+          title: "总经理，Hansa Ibérica",
+          text: "经过多年成功的合作，凭借我们对他的信任，我们自信地将他和他公司的产品推荐给我们集团公司在欧洲的其他分支机构。"
+        },
+        {
+          name: "Martin Boning",
+          title: "总经理，ETT Ersatzteil Technik GmbH",
+          text: "Onur成功地执行了我们的定制产品制造，并在诚实、合作和信任的框架内管理了外贸的所有阶段。这种持续多年的成功伙伴关系至今仍与他的前公司继续。"
+        },
+        {
+          name: "Prathima Blaji",
+          title: "销售经理，Schwing Stetter India",
+          text: "Onur为确保我们从土耳其采购的存在质量问题的产品顺利稳定地采购提供了巨大的支持。他的专业方法和以解决方案为导向的态度在我们的合作中发挥了关键作用。"
+        },
+        {
+          name: "Lefteris Pozarlis",
+          title: "总经理，S. Pozarli & Co.",
+          text: "他帮助我们以优质和具有竞争力的价格的产品完善了我们的产品线。得益于他，我们在希腊市场迅速取得了强劲的销售业绩。"
         }
       ]
     },

@@ -207,67 +207,62 @@ export const en = {
       }
     },
     testimonials: {
-      title: "Trusted by Professionals",
+      title: "Real Client Testimonials",
       items: [
         {
-          name: "John Smith",
-          title: "CEO, European Mining Equipment Ltd.",
-          text: "Onur helped us expand our exports to 15 new countries in just 18 months. His expertise in international trade compliance and market analysis was invaluable."
+          name: "Emrah Değirmenci",
+          title: "General Manager, Gülhan Rubber Spare Parts",
+          text: "During his 8.5 years with us, Onur transformed our foreign trade operations into a completely professional system. He played a major role in finding new markets, strengthening customer relationships, and increasing our export volume."
         },
         {
-          name: "Maria Garcia",
-          title: "Director, Spanish Construction Group",
-          text: "The most professional trade consultant we have ever worked with. Onur managed all our import-export documentation flawlessly and secured amazing deals."
+          name: "Ben Cramphorn",
+          title: "General Manager, AV Industrial Products Ltd.",
+          text: "He provided highly professional support in all foreign trade processes from production to shipping. His meticulous work ethic and strong communication skills always made our collaboration smooth and efficient."
         },
         {
-          name: "David Chen",
-          title: "VP Sales, Asian Machinery Co.",
-          text: "Onur is a brilliant negotiator. He helped us enter the European market and built a strong distributor network. Our turnover increased by 300%."
+          name: "Amanda",
+          title: "Sales Manager, Tehco Bearing Co.",
+          text: "Throughout our collaboration, he managed all order processes with great diligence. Thanks to his friendly approach, cooperative attitude, and professionalism, we have built a successful business partnership lasting 8 years."
         },
         {
-          name: "Sarah Johnson",
-          title: "Operations Manager, UK Industrial Parts",
-          text: "Working with Onur transformed our international operations. His deep understanding of customs regulations saved us countless hours and prevented costly mistakes."
+          name: "İbrahim Mutlu",
+          title: "General Manager, FMS Group",
+          text: "Onur established our foreign trade department from scratch organizationally. Thanks to him, we opened up to new markets, carried out successful imports, and completed our product range in the domestic market. The system he built still operates flawlessly today."
         },
         {
-          name: "Hans Mueller",
-          title: "Managing Director, German Engineering GmbH",
-          text: "Onur's strategic approach to market expansion is exceptional. He identified key opportunities in emerging markets that we hadn't even considered."
+          name: "Yalçın Özçelik",
+          title: "General Manager, Özçelik Trade",
+          text: "He made significant contributions to procuring finished products and custom manufacturing from abroad in accordance with Turkish army technical specifications. He helped complete all deliveries successfully by maintaining the balance between quality and cost."
         },
         {
-          name: "Fatima Al-Rashid",
-          title: "Trade Manager, Saudi Arabian Equipment",
-          text: "His expertise in Middle Eastern markets is unmatched. Onur helped us navigate complex regulations and build lasting partnerships across the region."
+          name: "Ricky Li",
+          title: "Sales Manager, Luoyang Golden Egret Geotools Co., Ltd.",
+          text: "Onur has been appointed as our company's authorized sales agent in Turkey. His professionalism, reliable approach, and strong collaboration mindset were decisive in this decision. We believe we will achieve great successes together in the Turkish market."
         },
         {
-          name: "Marco Rossi",
-          title: "Export Director, Italian Machinery Co.",
-          text: "Outstanding results! Onur increased our export efficiency by 250% and helped us establish presence in markets we never thought possible."
+          name: "Stefano Viello",
+          title: "Marketing & Sales Manager, Sermac S.R.L.",
+          text: "Onur ensured that key products we sourced from Turkey were manufactured to our own standards and delivered smoothly for years. Thanks to the system he established, we continue to make high-volume purchases to this day."
         },
         {
-          name: "Emma Williams",
-          title: "CEO, Australian Mining Supplies",
-          text: "Onur's attention to detail and commitment to excellence is remarkable. He managed our entire import process seamlessly and exceeded all expectations."
+          name: "Mario Soria",
+          title: "General Manager, Hansa Ibérica",
+          text: "After years of successful collaboration, thanks to the trust we have in him, we confidently recommended him and his company's products to other branches of our group company in Europe."
         },
         {
-          name: "Kim Min-Jun",
-          title: "International Sales Director, Korean Industrial",
-          text: "The best trade consultant in the business. Onur's network spans continents and his negotiation skills are truly world-class."
+          name: "Martin Boning",
+          title: "General Manager, ETT Ersatzteil Technik GmbH",
+          text: "Onur successfully executed our custom product manufacturing and managed all stages of foreign trade within the framework of honesty, cooperation, and trust. This successful partnership lasting many years still continues with his former company."
         },
         {
-          name: "Pierre Dubois",
-          title: "VP Operations, French Construction Equipment",
-          text: "Onur's comprehensive approach to international trade is impressive. He handled everything from documentation to logistics with perfect precision."
+          name: "Prathima Blaji",
+          title: "Sales Manager, Schwing Stetter India",
+          text: "Onur provided great support in ensuring the smooth and stable procurement of products we sourced from Turkey that had quality issues. His professional approach and solution-oriented attitude made a difference in our collaboration."
         },
         {
-          name: "Rajesh Kumar",
-          title: "Managing Partner, Indian Heavy Machinery",
-          text: "Working with Onur opened doors we didn't know existed. His knowledge of Asian markets helped us triple our revenue in two years."
-        },
-        {
-          name: "Isabella Santos",
-          title: "Trade Director, Brazilian Equipment Solutions",
-          text: "Exceptional service from start to finish. Onur's expertise in South American markets and his ability to overcome challenges is outstanding."
+          name: "Lefteris Pozarlis",
+          title: "General Manager, S. Pozarli & Co.",
+          text: "He helped us complete our product range with quality and competitively priced products. Thanks to him, we quickly achieved strong sales figures in the Greek market."
         }
       ]
     },

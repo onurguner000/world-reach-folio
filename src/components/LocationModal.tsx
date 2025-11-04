@@ -16,7 +16,7 @@ export const LocationModal = ({ isOpen, onClose }: LocationModalProps) => {
     lat: 39.8997,
     lng: 32.8627,
     name: 'Çankaya, Ankara, Turkey',
-    address: 'Daire No: 19, Blok No: 159 C, Çınar Sitesi, Turan Güneş Bulvarı, Dumlupınar Mah., 06550 Çankaya, Ankara, Türkiye'
+    address: 'Çınar Sitesi, Turan Güneş Bulvarı, Dumlupınar Mah., 06550 Çankaya, Ankara, Türkiye'
   };
 
   return (

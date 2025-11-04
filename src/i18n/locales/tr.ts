@@ -207,17 +207,62 @@ export const tr = {
       }
     },
     testimonials: {
-      title: "Profesyoneller Tarafından Güvenilir",
+      title: "Müşterilerimizden Gelen Gerçek Referanslar",
       items: [
         {
-          name: "John Smith",
-          title: "CEO, Avrupa Madencilik Ekipmanları A.Ş.",
-          text: "Onur, sadece 18 ayda 15 yeni ülkeye ihracat yapmamıza yardımcı oldu. Uluslararası ticaret uyumluluğu ve pazar analizi konusundaki uzmanlığı paha biçilmezdi."
+          name: "Emrah Değirmenci",
+          title: "Genel Müdür, Gülhan Kauçuk Yedek Parça",
+          text: "Onur, bizimle olduğu 8,5 yıllık süreçte dış ticaret operasyonlarımızı tamamen profesyonel bir düzene taşıdı. Yeni pazarların bulunması, müşteri ilişkilerinin güçlendirilmesi ve ihracat hacmimizin artmasında büyük rol oynadı."
         },
         {
-          name: "Maria Garcia",
-          title: "Direktör, İspanyol İnşaat Grubu",
-          text: "Şimdiye kadar çalıştığımız en profesyonel ticaret danışmanı. Onur, tüm ithalat-ihracat dokümantasyonumuzu kusursuz bir şekilde yönetti ve harika anlaşmalar sağladı."
+          name: "Ben Cramphorn",
+          title: "Genel Müdür, AV Industrial Products Ltd.",
+          text: "Üretimden nakliyeye kadar tüm dış ticaret süreçlerinde son derece profesyonel bir destek sağladı. İşine olan titizliği ve güçlü iletişimiyle iş birliğimizi her zaman sorunsuz ve verimli hale getirdi."
+        },
+        {
+          name: "Amanda",
+          title: "Satış Müdürü, Tehco Bearing Co.",
+          text: "Kendisiyle çalıştığımız süre boyunca tüm sipariş süreçlerini büyük bir titizlikle yönetti. Dostane yaklaşımı, iş birliğine açık tutumu ve profesyonelliği sayesinde 8 yıldır süren başarılı bir iş ortaklığı kurduk."
+        },
+        {
+          name: "İbrahim Mutlu",
+          title: "Genel Müdür, FMS Grup",
+          text: "Onur, dış ticaret departmanımızı organizasyonel anlamda sıfırdan kurdu. Sayesinde yeni pazarlara açıldık, başarılı ithalatlar gerçekleştirdik ve iç pazarda ürün yelpazemizi tamamladık. Kurduğu sistem bugün hâlâ sorunsuz şekilde işlemektedir."
+        },
+        {
+          name: "Yalçın Özçelik",
+          title: "Genel Müdür, Özçelik Ticaret",
+          text: "Bitmiş ürünlerin ve özel imalatların Türk ordusunun teknik şartnamelerine uygun şekilde yurtdışından tedarik edilmesinde büyük katkı sağladı. Kalite ve maliyet dengesini koruyarak tüm teslimatların başarıyla tamamlanmasına yardımcı oldu."
+        },
+        {
+          name: "Ricky Li",
+          title: "Satış Şefi, Luoyang Golden Egret Geotools Co., Ltd.",
+          text: "Onur, firmamızın Türkiye yetkili satış acentesi olarak görevlendirilmiştir. Bu kararda kendisinin gösterdiği profesyonellik, güvenilir yaklaşım ve güçlü iş birliği anlayışı belirleyici olmuştur. Türkiye pazarında birlikte büyük başarılara imza atacağımıza inanıyoruz."
+        },
+        {
+          name: "Stefano Viello",
+          title: "Pazarlama ve Satış Müdürü, Sermac S.R.L.",
+          text: "Onur, Türkiye'den temin ettiğimiz kilit ürünlerin kendi standartlarımıza uygun şekilde üretilmesini ve yıllar boyunca sorunsuz teslim edilmesini sağladı. Kurduğu sistem sayesinde bugün hâlâ yüksek hacimlerde alım yapmaya devam ediyoruz."
+        },
+        {
+          name: "Mario Soria",
+          title: "Genel Müdür, Hansa Ibérica",
+          text: "Uzun yıllar süren başarılı iş birliğimizin ardından, kendisine duyduğumuz güven sayesinde grup şirketimizin Avrupa'daki diğer şubelerine de kendisini ve firmasının ürünlerini gönül rahatlığıyla tavsiye ettik."
+        },
+        {
+          name: "Martin Boning",
+          title: "Genel Müdür, ETT Ersatzteil Technik GmbH",
+          text: "Onur, özel ürün imalatlarımızı başarıyla gerçekleştirdi ve dış ticaretin tüm aşamalarını dürüstlük, iş birliği ve güven çerçevesinde yönetti. Uzun yıllar süren bu başarılı ortaklığımız, eski firmasıyla hâlâ devam etmektedir."
+        },
+        {
+          name: "Prathima Blaji",
+          title: "Satış Müdürü, Schwing Stetter India",
+          text: "Onur, Türkiye'den tedarik ettiğimiz ve kalitesiyle ilgili sorun yaşadığımız ürünlerin sorunsuz ve istikrarlı şekilde tedarik edilmesinde büyük destek sağladı. Profesyonel yaklaşımı ve çözüm odaklı tutumu iş birliğimizde fark yarattı."
+        },
+        {
+          name: "Lefteris Pozarlis",
+          title: "Genel Müdür, S. Pozarli & Co.",
+          text: "Kaliteli ve rekabetçi fiyatlı ürünleriyle ürün gamımızı tamamlamamıza yardımcı oldu. Sayesinde Yunanistan pazarında kısa sürede güçlü satış rakamlarına ulaştık."
         }
       ]
     },

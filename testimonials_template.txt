@@ -1,0 +1,60 @@
+testimonials: {
+  title: "Real Client Testimonials",
+  items: [
+    {
+      name: "Emrah Değirmenci",
+      title: "General Manager, Gülhan Rubber Spare Parts",
+      text: "During his 8.5 years with us, Onur transformed our foreign trade operations into a completely professional system. He played a major role in finding new markets, strengthening customer relationships, and increasing our export volume."
+    },
+    {
+      name: "Ben Cramphorn",
+      title: "General Manager, AV Industrial Products Ltd.",
+      text: "He provided highly professional support in all foreign trade processes from production to shipping. His meticulous work ethic and strong communication skills always made our collaboration smooth and efficient."
+    },
+    {
+      name: "Amanda",
+      title: "Sales Manager, Tehco Bearing Co.",
+      text: "Throughout our collaboration, he managed all order processes with great diligence. Thanks to his friendly approach, cooperative attitude, and professionalism, we have built a successful business partnership lasting 8 years."
+    },
+    {
+      name: "İbrahim Mutlu",
+      title: "General Manager, FMS Group",
+      text: "Onur established our foreign trade department from scratch organizationally. Thanks to him, we opened up to new markets, carried out successful imports, and completed our product range in the domestic market. The system he built still operates flawlessly today."
+    },
+    {
+      name: "Yalçın Özçelik",
+      title: "General Manager, Özçelik Trade",
+      text: "He made significant contributions to procuring finished products and custom manufacturing from abroad in accordance with Turkish army technical specifications. He helped complete all deliveries successfully by maintaining the balance between quality and cost."
+    },
+    {
+      name: "Ricky Li",
+      title: "Sales Manager, Luoyang Golden Egret Geotools Co., Ltd.",
+      text: "Onur has been appointed as our company's authorized sales agent in Turkey. His professionalism, reliable approach, and strong collaboration mindset were decisive in this decision. We believe we will achieve great successes together in the Turkish market."
+    },
+    {
+      name: "Stefano Viello",
+      title: "Marketing & Sales Manager, Sermac S.R.L.",
+      text: "Onur ensured that key products we sourced from Turkey were manufactured to our own standards and delivered smoothly for years. Thanks to the system he established, we continue to make high-volume purchases to this day."
+    },
+    {
+      name: "Mario Soria",
+      title: "General Manager, Hansa Ibérica",
+      text: "After years of successful collaboration, thanks to the trust we have in him, we confidently recommended him and his company's products to other branches of our group company in Europe."
+    },
+    {
+      name: "Martin Boning",
+      title: "General Manager, ETT Ersatzteil Technik GmbH",
+      text: "Onur successfully executed our custom product manufacturing and managed all stages of foreign trade within the framework of honesty, cooperation, and trust. This successful partnership lasting many years still continues with his former company."
+    },
+    {
+      name: "Prathima Blaji",
+      title: "Sales Manager, Schwing Stetter India",
+      text: "Onur provided great support in ensuring the smooth and stable procurement of products we sourced from Turkey that had quality issues. His professional approach and solution-oriented attitude made a difference in our collaboration."
+    },
+    {
+      name: "Lefteris Pozarlis",
+      title: "General Manager, S. Pozarli & Co.",
+      text: "He helped us complete our product range with quality and competitively priced products. Thanks to him, we quickly achieved strong sales figures in the Greek market."
+    }
+  ]
+}

@@ -207,17 +207,62 @@ export const fr = {
       }
     },
     testimonials: {
-      title: "Confiance des Professionnels",
+      title: "Témoignages Réels de Clients",
       items: [
         {
-          name: "John Smith",
-          title: "PDG, European Mining Equipment Ltd",
-          text: "Onur nous a aidés à étendre nos exportations à 15 nouveaux pays en seulement 18 mois. Son expertise en conformité commerciale internationale et en analyse de marché a été inestimable."
+          name: "Emrah Değirmenci",
+          title: "Directeur Général, Gülhan Rubber Spare Parts",
+          text: "Au cours de ses 8,5 années passées avec nous, Onur a transformé nos opérations de commerce extérieur en un système complètement professionnel. Il a joué un rôle majeur dans la découverte de nouveaux marchés, le renforcement des relations clients et l'augmentation de notre volume d'exportation."
         },
         {
-          name: "Maria Garcia",
-          title: "Directrice, Spanish Construction Group",
-          text: "Le consultant commercial le plus professionnel avec qui nous ayons jamais travaillé. Onur a parfaitement géré tous nos documents d'import/export et a obtenu des accords incroyables."
+          name: "Ben Cramphorn",
+          title: "Directeur Général, AV Industrial Products Ltd.",
+          text: "Il a fourni un soutien hautement professionnel dans tous les processus de commerce extérieur, de la production à l'expédition. Son éthique de travail méticuleuse et ses fortes compétences en communication ont toujours rendu notre collaboration fluide et efficace."
+        },
+        {
+          name: "Amanda",
+          title: "Directrice des Ventes, Tehco Bearing Co.",
+          text: "Tout au long de notre collaboration, il a géré tous les processus de commande avec une grande diligence. Grâce à son approche amicale, son attitude coopérative et son professionnalisme, nous avons construit un partenariat commercial réussi qui dure depuis 8 ans."
+        },
+        {
+          name: "İbrahim Mutlu",
+          title: "Directeur Général, FMS Group",
+          text: "Onur a établi notre département de commerce extérieur à partir de zéro sur le plan organisationnel. Grâce à lui, nous nous sommes ouverts à de nouveaux marchés, avons réalisé des importations réussies et complété notre gamme de produits sur le marché national. Le système qu'il a mis en place fonctionne encore parfaitement aujourd'hui."
+        },
+        {
+          name: "Yalçın Özçelik",
+          title: "Directeur Général, Özçelik Trade",
+          text: "Il a apporté des contributions significatives à l'approvisionnement de produits finis et de fabrications sur mesure de l'étranger conformément aux spécifications techniques de l'armée turque. Il a aidé à finaliser toutes les livraisons avec succès en maintenant l'équilibre entre qualité et coût."
+        },
+        {
+          name: "Ricky Li",
+          title: "Chef des Ventes, Luoyang Golden Egret Geotools Co., Ltd.",
+          text: "Onur a été nommé agent commercial autorisé de notre entreprise en Turquie. Son professionnalisme, son approche fiable et son fort esprit de collaboration ont été décisifs dans cette décision. Nous sommes convaincus que nous réaliserons ensemble de grands succès sur le marché turc."
+        },
+        {
+          name: "Stefano Viello",
+          title: "Directeur Marketing & Ventes, Sermac S.R.L.",
+          text: "Onur a veillé à ce que les produits clés que nous sourcing de Turquie soient fabriqués selon nos propres normes et livrés sans problème pendant des années. Grâce au système qu'il a mis en place, nous continuons à effectuer des achats en grand volume à ce jour."
+        },
+        {
+          name: "Mario Soria",
+          title: "Directeur Général, Hansa Ibérica",
+          text: "Après des années de collaboration réussie, grâce à la confiance que nous avons en lui, nous avons recommandé en toute confiance lui et les produits de son entreprise à d'autres branches de notre groupe d'entreprises en Europe."
+        },
+        {
+          name: "Martin Boning",
+          title: "Directeur Général, ETT Ersatzteil Technik GmbH",
+          text: "Onur a exécuté avec succès notre fabrication de produits personnalisés et a géré toutes les étapes du commerce extérieur dans le cadre de l'honnêteté, de la coopération et de la confiance. Ce partenariat réussi qui a duré de nombreuses années se poursuit encore aujourd'hui avec son ancienne entreprise."
+        },
+        {
+          name: "Prathima Blaji",
+          title: "Directrice des Ventes, Schwing Stetter India",
+          text: "Onur a fourni un excellent soutien pour assurer l'approvisionnement fluide et stable de produits que nous sourcing de Turquie et qui avaient des problèmes de qualité. Son approche professionnelle et son attitude axée sur les solutions ont fait la différence dans notre collaboration."
+        },
+        {
+          name: "Lefteris Pozarlis",
+          title: "Directeur Général, S. Pozarli & Co.",
+          text: "Il nous a aidés à compléter notre gamme de produits avec des produits de qualité et à prix compétitifs. Grâce à lui, nous avons rapidement atteint de solides chiffres de vente sur le marché grec."
         }
       ]
     },

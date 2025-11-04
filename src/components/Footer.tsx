@@ -145,7 +145,7 @@ export const Footer = () => {
               <Globe className="w-5 h-5" />
               {t('footer.language')}
             </h3>
-            <div className="[&_button]:text-primary-foreground">
+            <div className="[&_button]:!bg-background/10 [&_button]:!text-primary-foreground [&_button]:hover:!bg-gold/20 [&_button]:hover:!text-gold [&_button]:!border-primary-foreground/20">
               <LanguageSwitcher />
             </div>
             

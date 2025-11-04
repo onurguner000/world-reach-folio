@@ -207,17 +207,62 @@ export const de = {
       }
     },
     testimonials: {
-      title: "Vertrauen von Fachleuten",
+      title: "Echte Kundenreferenzen",
       items: [
         {
-          name: "John Smith",
-          title: "CEO, European Mining Equipment Ltd",
-          text: "Onur half uns, unsere Exporte in nur 18 Monaten auf 15 neue Länder auszuweiten. Seine Expertise in internationalen Handelsvorschriften und Marktanalysen war von unschätzbarem Wert."
+          name: "Emrah Değirmenci",
+          title: "Geschäftsführer, Gülhan Rubber Spare Parts",
+          text: "Während seiner 8,5 Jahre bei uns hat Onur unsere Außenhandelsoperationen in ein vollständig professionelles System verwandelt. Er spielte eine wichtige Rolle bei der Erschließung neuer Märkte, der Stärkung der Kundenbeziehungen und der Steigerung unseres Exportvolumens."
         },
         {
-          name: "Maria Garcia",
-          title: "Direktorin, Spanish Construction Group",
-          text: "Der professionellste Handelsberater, mit dem wir je zusammengearbeitet haben. Onur verwaltete perfekt alle unsere Import-/Exportdokumente und sicherte erstaunliche Deals."
+          name: "Ben Cramphorn",
+          title: "Geschäftsführer, AV Industrial Products Ltd.",
+          text: "Er bot hochprofessionelle Unterstützung in allen Außenhandelsprozessen von der Produktion bis zum Versand. Seine akribische Arbeitsethik und starken Kommunikationsfähigkeiten machten unsere Zusammenarbeit immer reibungslos und effizient."
+        },
+        {
+          name: "Amanda",
+          title: "Vertriebsleiterin, Tehco Bearing Co.",
+          text: "Während unserer gesamten Zusammenarbeit verwaltete er alle Bestellprozesse mit großer Sorgfalt. Dank seines freundlichen Ansatzes, seiner kooperativen Haltung und Professionalität haben wir eine erfolgreiche Geschäftspartnerschaft aufgebaut, die 8 Jahre andauert."
+        },
+        {
+          name: "İbrahim Mutlu",
+          title: "Geschäftsführer, FMS Group",
+          text: "Onur hat unsere Außenhandelsabteilung organisatorisch von Grund auf aufgebaut. Dank ihm haben wir uns neuen Märkten geöffnet, erfolgreiche Importe durchgeführt und unser Produktsortiment auf dem Inlandsmarkt vervollständigt. Das von ihm aufgebaute System funktioniert heute noch einwandfrei."
+        },
+        {
+          name: "Yalçın Özçelik",
+          title: "Geschäftsführer, Özçelik Trade",
+          text: "Er leistete bedeutende Beiträge zur Beschaffung von Fertigprodukten und Sonderanfertigungen aus dem Ausland gemäß den technischen Spezifikationen der türkischen Armee. Er half dabei, alle Lieferungen erfolgreich abzuschließen, indem er das Gleichgewicht zwischen Qualität und Kosten aufrechterhielt."
+        },
+        {
+          name: "Ricky Li",
+          title: "Vertriebsleiter, Luoyang Golden Egret Geotools Co., Ltd.",
+          text: "Onur wurde zum autorisierten Vertriebspartner unseres Unternehmens in der Türkei ernannt. Seine Professionalität, zuverlässige Herangehensweise und starke Kollaborationsdenkweise waren bei dieser Entscheidung ausschlaggebend. Wir glauben, dass wir gemeinsam auf dem türkischen Markt große Erfolge erzielen werden."
+        },
+        {
+          name: "Stefano Viello",
+          title: "Marketing & Vertriebsleiter, Sermac S.R.L.",
+          text: "Onur stellte sicher, dass Schlüsselprodukte, die wir aus der Türkei bezogen, nach unseren eigenen Standards hergestellt und über Jahre hinweg reibungslos geliefert wurden. Dank des von ihm aufgebauten Systems führen wir bis heute Einkäufe in großem Umfang durch."
+        },
+        {
+          name: "Mario Soria",
+          title: "Geschäftsführer, Hansa Ibérica",
+          text: "Nach Jahren erfolgreicher Zusammenarbeit haben wir dank des Vertrauens, das wir in ihn haben, ihn und die Produkte seines Unternehmens guten Gewissens an andere Niederlassungen unserer Unternehmensgruppe in Europa weiterempfohlen."
+        },
+        {
+          name: "Martin Boning",
+          title: "Geschäftsführer, ETT Ersatzteil Technik GmbH",
+          text: "Onur führte unsere maßgeschneiderte Produktfertigung erfolgreich durch und verwaltete alle Phasen des Außenhandels im Rahmen von Ehrlichkeit, Zusammenarbeit und Vertrauen. Diese erfolgreiche Partnerschaft, die viele Jahre andauerte, besteht mit seinem ehemaligen Unternehmen bis heute fort."
+        },
+        {
+          name: "Prathima Blaji",
+          title: "Vertriebsleiterin, Schwing Stetter India",
+          text: "Onur bot großartige Unterstützung bei der Gewährleistung der reibungslosen und stabilen Beschaffung von Produkten, die wir aus der Türkei bezogen und bei denen Qualitätsprobleme auftraten. Sein professioneller Ansatz und seine lösungsorientierte Haltung machten den Unterschied in unserer Zusammenarbeit."
+        },
+        {
+          name: "Lefteris Pozarlis",
+          title: "Geschäftsführer, S. Pozarli & Co.",
+          text: "Er half uns, unser Produktsortiment mit qualitativ hochwertigen und wettbewerbsfähig preisgestalteten Produkten zu vervollständigen. Dank ihm erreichten wir schnell starke Verkaufszahlen auf dem griechischen Markt."
         }
       ]
     },

@@ -31,8 +31,12 @@ export const Navbar = () => {
   const scrollToSection = (href: string) => {
     const element = document.querySelector(href);
     if (element) {
-      element.scrollIntoView({ behavior: 'smooth' });
+      // Close mobile menu first
       setIsMobileMenuOpen(false);
+      // Wait for menu animation to complete, then scroll
+      setTimeout(() => {
+        element.scrollIntoView({ behavior: 'smooth' });
+      }, 300);
     }
   };
 
